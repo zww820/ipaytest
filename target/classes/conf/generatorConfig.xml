@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" > 
+<generatorConfiguration>
+  <classPathEntry
+        location="C:\Users\Audience\.m2\repository\com\oracle\ojdbc14\10.2.0.4.0\ojdbc14-10.2.0.4.0.jar" />
+  <context id="DBTables" targetRuntime="MyBatis3">
+    
+    <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">  
+            <property name="searchString" value="Example$" />  
+            <property name="replaceString" value="Criteria" />  
+     </plugin>  
+     <plugin type="org.mybatis.generator.plugins.CachePlugin">  
+            <property name="cache_eviction" value="LRU" />  
+            <property name="cache_flushInterval" value="60000" />  
+            <property name="cache_readOnly" value="true" />  
+            <property name="cache_size" value="1560" />  
+     </plugin>  
+     <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>  
+     <plugin type="org.mybatis.generator.plugins.SerializablePlugin">  
+            <property name="suppressJavaInterface" value="false" />  
+     </plugin>  
+     <commentGenerator  type="org.mybatis.generator.internal.CustomeCommentGenerator"><!-- 数据库表注释生成-->  
+            <property name="javaFileEncoding" value="UTF-8" />  
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->  
+            <property name="suppressAllComments" value="false" />  
+            <property name="suppressDate" value="false" />  
+     </commentGenerator>
+    
+    <jdbcConnection connectionURL="jdbc:oracle:thin:@121.196.216.209:1521:orcl" driverClass="oracle.jdbc.OracleDriver" password="core0608" userId="IPAY_CORE_TEST" />
+    <javaModelGenerator targetPackage="org.ipay.model" targetProject="src/main/java">
+            <property name="trimStrings" value="true"/>
+    </javaModelGenerator>
+    <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+    </sqlMapGenerator> 
+    <javaClientGenerator targetPackage="org.ipay.dao" targetProject="src/main/java" type="XMLMAPPER" >
+    </javaClientGenerator>
+    <table schema="IPAY_CORE_TEST" tableName="T_PAY_ORDER"  domainObjectName="T_pay_order"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+      <property name="useActualColumnNames" value="true"/>
+    </table>
+    
+  </context>
+</generatorConfiguration>
