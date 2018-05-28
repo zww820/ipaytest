@@ -6,7 +6,8 @@ package org.ipay.enums;
  */
 public enum ChannelEnum {
     ALIPAY("alipay","支付宝"),
-    WXPAY("wxpay","微信");
+    WXPAY("wxpay","微信"),
+    UNIONPAY("unionpay","银联");
 	
 	private String value;
 	private String text;

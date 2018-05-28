@@ -6,161 +6,257 @@ import java.util.Date;
 
 public class T_pay_order_refund implements Serializable {
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : ID
      */
     private Long ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : AMOUNT
      */
     private BigDecimal AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : REFUND_POINTS
      */
     private Long REFUND_POINTS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : STATUS
      */
     private String STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CHANNEL_ID
      */
     private BigDecimal CHANNEL_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : SHOP_ID
      */
     private BigDecimal SHOP_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : ORDER_ID
      */
     private BigDecimal ORDER_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : REFUND_NO
      */
     private String REFUND_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : SERIAL_NO
      */
     private String SERIAL_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CREATED_ID
      */
     private BigDecimal CREATED_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CREATED_TIME
      */
     private Date CREATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CHANNEL_CODE
      */
     private String CHANNEL_CODE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : SHOP_NAME
      */
     private String SHOP_NAME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CASHIER
      */
     private String CASHIER;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : MESSAGE
      */
     private String MESSAGE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : ORDER_NO
      */
     private String ORDER_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : REMARK
      */
     private String REMARK;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : LEAVE_MESSAGE
      */
     private String LEAVE_MESSAGE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : ORDER_PAY_TIME
      */
     private Date ORDER_PAY_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : ORDER_TRADE_NO
      */
     private String ORDER_TRADE_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CHANNEL_REFUND_TIME
      */
     private Date CHANNEL_REFUND_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : REFUND_DATE
      */
     private String REFUND_DATE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CHECK_STATUS
      */
     private String CHECK_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * 表 : T_PAY_ORDER_REFUND
      * 对应字段 : CHECK_DATE
      */
     private String CHECK_DATE;
 
     /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : CLE_STATUS
+     */
+    private Integer CLE_STATUS;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : STL_BILL_NO
+     */
+    private String STL_BILL_NO;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : STL_STATUS
+     */
+    private Integer STL_STATUS;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : TOP_ORG_ID
+     */
+    private BigDecimal TOP_ORG_ID;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : PAY_TYPE_ID
+     */
+    private BigDecimal PAY_TYPE_ID;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : PLATFORM_AMOUNT
+     */
+    private BigDecimal PLATFORM_AMOUNT;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : MERCHANT_AMOUNT
+     */
+    private BigDecimal MERCHANT_AMOUNT;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : CHANNEL_AMOUNT
+     */
+    private BigDecimal CHANNEL_AMOUNT;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : DISCOUNT
+     */
+    private BigDecimal DISCOUNT;
+
+        /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : ORG_ID
+     */
+    private BigDecimal ORG_ID;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : MERCHANT_ID
+     */
+    private BigDecimal MERCHANT_ID;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : MERCHANT_NAME
+     */
+    private String MERCHANT_NAME;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : MERCHANT_SERVICE_AMOUNT
+     */
+    private BigDecimal MERCHANT_SERVICE_AMOUNT;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : CLE_SCENE_NO
+     */
+    private String CLE_SCENE_NO;
+
+    /**
+     * 表 : T_PAY_ORDER_REFUND
+     * 对应字段 : CHANNEL_SERVICE_AMOUNT
+     */
+    private BigDecimal CHANNEL_SERVICE_AMOUNT;
+    
+    /**
+     * 表：T_PAY_ORDER_REFUND
+     * 对应字段：STL_AMOUNT
+     */
+    private BigDecimal STL_AMOUNT;
+
+    /**
      * This field was generated by MyBatis Generator.
-     * This field corresponds to the database table IPAY_CORE_TEST.T_PAY_ORDER_REFUND
+     * This field corresponds to the database table T_PAY_ORDER_REFUND
      *
-     * @MBG Generated Wed Aug 23 12:24:29 CST 2017
+     * @MBG Generated Mon Sep 04 16:24:17 CST 2017
      */
     private static final long serialVersionUID = 1L;
 
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.ID：null
+     * @return T_PAY_ORDER_REFUND.ID：null
      */
     public Long getID() {
         return ID;
@@ -178,7 +274,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.AMOUNT：null
+     * @return T_PAY_ORDER_REFUND.AMOUNT：null
      */
     public BigDecimal getAMOUNT() {
         return AMOUNT;
@@ -196,7 +292,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.REFUND_POINTS：null
+     * @return T_PAY_ORDER_REFUND.REFUND_POINTS：null
      */
     public Long getREFUND_POINTS() {
         return REFUND_POINTS;
@@ -214,7 +310,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.STATUS：null
+     * @return T_PAY_ORDER_REFUND.STATUS：null
      */
     public String getSTATUS() {
         return STATUS;
@@ -232,7 +328,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CHANNEL_ID：null
+     * @return T_PAY_ORDER_REFUND.CHANNEL_ID：null
      */
     public BigDecimal getCHANNEL_ID() {
         return CHANNEL_ID;
@@ -250,7 +346,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.SHOP_ID：null
+     * @return T_PAY_ORDER_REFUND.SHOP_ID：null
      */
     public BigDecimal getSHOP_ID() {
         return SHOP_ID;
@@ -268,7 +364,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.ORDER_ID：null
+     * @return T_PAY_ORDER_REFUND.ORDER_ID：null
      */
     public BigDecimal getORDER_ID() {
         return ORDER_ID;
@@ -286,7 +382,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.REFUND_NO：null
+     * @return T_PAY_ORDER_REFUND.REFUND_NO：null
      */
     public String getREFUND_NO() {
         return REFUND_NO;
@@ -304,7 +400,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.SERIAL_NO：null
+     * @return T_PAY_ORDER_REFUND.SERIAL_NO：null
      */
     public String getSERIAL_NO() {
         return SERIAL_NO;
@@ -313,7 +409,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * set method 
      *
-     * @param SERIAL_NO  渠道退款流水
+     * @param SERIAL_NO  null
      */
     public void setSERIAL_NO(String SERIAL_NO) {
         this.SERIAL_NO = SERIAL_NO == null ? null : SERIAL_NO.trim();
@@ -322,7 +418,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CREATED_ID：null
+     * @return T_PAY_ORDER_REFUND.CREATED_ID：null
      */
     public BigDecimal getCREATED_ID() {
         return CREATED_ID;
@@ -340,7 +436,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CREATED_TIME：null
+     * @return T_PAY_ORDER_REFUND.CREATED_TIME：null
      */
     public Date getCREATED_TIME() {
         return CREATED_TIME;
@@ -358,7 +454,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CHANNEL_CODE：null
+     * @return T_PAY_ORDER_REFUND.CHANNEL_CODE：null
      */
     public String getCHANNEL_CODE() {
         return CHANNEL_CODE;
@@ -376,7 +472,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.SHOP_NAME：null
+     * @return T_PAY_ORDER_REFUND.SHOP_NAME：null
      */
     public String getSHOP_NAME() {
         return SHOP_NAME;
@@ -394,7 +490,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CASHIER：null
+     * @return T_PAY_ORDER_REFUND.CASHIER：null
      */
     public String getCASHIER() {
         return CASHIER;
@@ -412,7 +508,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.MESSAGE：null
+     * @return T_PAY_ORDER_REFUND.MESSAGE：null
      */
     public String getMESSAGE() {
         return MESSAGE;
@@ -430,7 +526,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.ORDER_NO：null
+     * @return T_PAY_ORDER_REFUND.ORDER_NO：null
      */
     public String getORDER_NO() {
         return ORDER_NO;
@@ -448,7 +544,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.REMARK：null
+     * @return T_PAY_ORDER_REFUND.REMARK：null
      */
     public String getREMARK() {
         return REMARK;
@@ -466,7 +562,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.LEAVE_MESSAGE：null
+     * @return T_PAY_ORDER_REFUND.LEAVE_MESSAGE：null
      */
     public String getLEAVE_MESSAGE() {
         return LEAVE_MESSAGE;
@@ -484,7 +580,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.ORDER_PAY_TIME：null
+     * @return T_PAY_ORDER_REFUND.ORDER_PAY_TIME：null
      */
     public Date getORDER_PAY_TIME() {
         return ORDER_PAY_TIME;
@@ -502,7 +598,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.ORDER_TRADE_NO：null
+     * @return T_PAY_ORDER_REFUND.ORDER_TRADE_NO：null
      */
     public String getORDER_TRADE_NO() {
         return ORDER_TRADE_NO;
@@ -511,7 +607,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * set method 
      *
-     * @param ORDER_TRADE_NO  原支付流水号
+     * @param ORDER_TRADE_NO  null
      */
     public void setORDER_TRADE_NO(String ORDER_TRADE_NO) {
         this.ORDER_TRADE_NO = ORDER_TRADE_NO == null ? null : ORDER_TRADE_NO.trim();
@@ -520,7 +616,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CHANNEL_REFUND_TIME：null
+     * @return T_PAY_ORDER_REFUND.CHANNEL_REFUND_TIME：null
      */
     public Date getCHANNEL_REFUND_TIME() {
         return CHANNEL_REFUND_TIME;
@@ -538,7 +634,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.REFUND_DATE：null
+     * @return T_PAY_ORDER_REFUND.REFUND_DATE：null
      */
     public String getREFUND_DATE() {
         return REFUND_DATE;
@@ -556,7 +652,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CHECK_STATUS：null
+     * @return T_PAY_ORDER_REFUND.CHECK_STATUS：null
      */
     public String getCHECK_STATUS() {
         return CHECK_STATUS;
@@ -574,7 +670,7 @@ public class T_pay_order_refund implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER_REFUND.CHECK_DATE：null
+     * @return T_PAY_ORDER_REFUND.CHECK_DATE：null
      */
     public String getCHECK_DATE() {
         return CHECK_DATE;
@@ -587,6 +683,284 @@ public class T_pay_order_refund implements Serializable {
      */
     public void setCHECK_DATE(String CHECK_DATE) {
         this.CHECK_DATE = CHECK_DATE == null ? null : CHECK_DATE.trim();
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.CLE_STATUS：null
+     */
+    public Integer getCLE_STATUS() {
+        return CLE_STATUS;
+    }
+
+    /**
+     * set method 
+     *
+     * @param CLE_STATUS  null
+     */
+    public void setCLE_STATUS(Integer CLE_STATUS) {
+        this.CLE_STATUS = CLE_STATUS;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.STL_BILL_NO：null
+     */
+    public String getSTL_BILL_NO() {
+        return STL_BILL_NO;
+    }
+
+    /**
+     * set method 
+     *
+     * @param STL_BILL_NO  null
+     */
+    public void setSTL_BILL_NO(String STL_BILL_NO) {
+        this.STL_BILL_NO = STL_BILL_NO == null ? null : STL_BILL_NO.trim();
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.STL_STATUS：null
+     */
+    public Integer getSTL_STATUS() {
+        return STL_STATUS;
+    }
+
+    /**
+     * set method 
+     *
+     * @param STL_STATUS  null
+     */
+    public void setSTL_STATUS(Integer STL_STATUS) {
+        this.STL_STATUS = STL_STATUS;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.TOP_ORG_ID：null
+     */
+    public BigDecimal getTOP_ORG_ID() {
+        return TOP_ORG_ID;
+    }
+
+    /**
+     * set method 
+     *
+     * @param TOP_ORG_ID  null
+     */
+    public void setTOP_ORG_ID(BigDecimal TOP_ORG_ID) {
+        this.TOP_ORG_ID = TOP_ORG_ID;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.PAY_TYPE_ID：null
+     */
+    public BigDecimal getPAY_TYPE_ID() {
+        return PAY_TYPE_ID;
+    }
+
+    /**
+     * set method 
+     *
+     * @param PAY_TYPE_ID  null
+     */
+    public void setPAY_TYPE_ID(BigDecimal PAY_TYPE_ID) {
+        this.PAY_TYPE_ID = PAY_TYPE_ID;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.PLATFORM_AMOUNT：null
+     */
+    public BigDecimal getPLATFORM_AMOUNT() {
+        return PLATFORM_AMOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param PLATFORM_AMOUNT  null
+     */
+    public void setPLATFORM_AMOUNT(BigDecimal PLATFORM_AMOUNT) {
+        this.PLATFORM_AMOUNT = PLATFORM_AMOUNT;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.MERCHANT_AMOUNT：null
+     */
+    public BigDecimal getMERCHANT_AMOUNT() {
+        return MERCHANT_AMOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param MERCHANT_AMOUNT  null
+     */
+    public void setMERCHANT_AMOUNT(BigDecimal MERCHANT_AMOUNT) {
+        this.MERCHANT_AMOUNT = MERCHANT_AMOUNT;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.CHANNEL_AMOUNT：null
+     */
+    public BigDecimal getCHANNEL_AMOUNT() {
+        return CHANNEL_AMOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param CHANNEL_AMOUNT  null
+     */
+    public void setCHANNEL_AMOUNT(BigDecimal CHANNEL_AMOUNT) {
+        this.CHANNEL_AMOUNT = CHANNEL_AMOUNT;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.DISCOUNT：null
+     */
+    public BigDecimal getDISCOUNT() {
+        return DISCOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param DISCOUNT  null
+     */
+    public void setDISCOUNT(BigDecimal DISCOUNT) {
+        this.DISCOUNT = DISCOUNT;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.ORG_ID：null
+     */
+    public BigDecimal getORG_ID() {
+        return ORG_ID;
+    }
+
+    /**
+     * set method 
+     *
+     * @param ORG_ID  null
+     */
+    public void setORG_ID(BigDecimal ORG_ID) {
+        this.ORG_ID = ORG_ID;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.MERCHANT_ID：null
+     */
+    public BigDecimal getMERCHANT_ID() {
+        return MERCHANT_ID;
+    }
+
+    /**
+     * set method 
+     *
+     * @param MERCHANT_ID  null
+     */
+    public void setMERCHANT_ID(BigDecimal MERCHANT_ID) {
+        this.MERCHANT_ID = MERCHANT_ID;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.MERCHANT_NAME：null
+     */
+    public String getMERCHANT_NAME() {
+        return MERCHANT_NAME;
+    }
+
+    /**
+     * set method 
+     *
+     * @param MERCHANT_NAME  null
+     */
+    public void setMERCHANT_NAME(String MERCHANT_NAME) {
+        this.MERCHANT_NAME = MERCHANT_NAME == null ? null : MERCHANT_NAME.trim();
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.MERCHANT_SERVICE_AMOUNT：null
+     */
+    public BigDecimal getMERCHANT_SERVICE_AMOUNT() {
+        return MERCHANT_SERVICE_AMOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param MERCHANT_SERVICE_AMOUNT  null
+     */
+    public void setMERCHANT_SERVICE_AMOUNT(BigDecimal MERCHANT_SERVICE_AMOUNT) {
+        this.MERCHANT_SERVICE_AMOUNT = MERCHANT_SERVICE_AMOUNT;
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.CLE_SCENE_NO：null
+     */
+    public String getCLE_SCENE_NO() {
+        return CLE_SCENE_NO;
+    }
+
+    /**
+     * set method 
+     *
+     * @param CLE_SCENE_NO  null
+     */
+    public void setCLE_SCENE_NO(String CLE_SCENE_NO) {
+        this.CLE_SCENE_NO = CLE_SCENE_NO == null ? null : CLE_SCENE_NO.trim();
+    }
+
+    /**
+     * get method 
+     *
+     * @return T_PAY_ORDER_REFUND.CHANNEL_SERVICE_AMOUNT：null
+     */
+    public BigDecimal getCHANNEL_SERVICE_AMOUNT() {
+        return CHANNEL_SERVICE_AMOUNT;
+    }
+
+    /**
+     * set method 
+     *
+     * @param CHANNEL_SERVICE_AMOUNT  null
+     */
+    public void setCHANNEL_SERVICE_AMOUNT(BigDecimal CHANNEL_SERVICE_AMOUNT) {
+        this.CHANNEL_SERVICE_AMOUNT = CHANNEL_SERVICE_AMOUNT;
+    }
+    
+    public BigDecimal getSTL_AMOUNT(){
+    	return STL_AMOUNT;
+    }
+    
+    public void setSTL_AMOUNT(BigDecimal STL_AMOUNT){
+    	this.STL_AMOUNT=STL_AMOUNT;
     }
 
     /**
@@ -628,7 +1002,23 @@ public class T_pay_order_refund implements Serializable {
             && (this.getCHANNEL_REFUND_TIME() == null ? other.getCHANNEL_REFUND_TIME() == null : this.getCHANNEL_REFUND_TIME().equals(other.getCHANNEL_REFUND_TIME()))
             && (this.getREFUND_DATE() == null ? other.getREFUND_DATE() == null : this.getREFUND_DATE().equals(other.getREFUND_DATE()))
             && (this.getCHECK_STATUS() == null ? other.getCHECK_STATUS() == null : this.getCHECK_STATUS().equals(other.getCHECK_STATUS()))
-            && (this.getCHECK_DATE() == null ? other.getCHECK_DATE() == null : this.getCHECK_DATE().equals(other.getCHECK_DATE()));
+            && (this.getCHECK_DATE() == null ? other.getCHECK_DATE() == null : this.getCHECK_DATE().equals(other.getCHECK_DATE()))
+            && (this.getCLE_STATUS() == null ? other.getCLE_STATUS() == null : this.getCLE_STATUS().equals(other.getCLE_STATUS()))
+            && (this.getSTL_BILL_NO() == null ? other.getSTL_BILL_NO() == null : this.getSTL_BILL_NO().equals(other.getSTL_BILL_NO()))
+            && (this.getSTL_STATUS() == null ? other.getSTL_STATUS() == null : this.getSTL_STATUS().equals(other.getSTL_STATUS()))
+            && (this.getTOP_ORG_ID() == null ? other.getTOP_ORG_ID() == null : this.getTOP_ORG_ID().equals(other.getTOP_ORG_ID()))
+            && (this.getPAY_TYPE_ID() == null ? other.getPAY_TYPE_ID() == null : this.getPAY_TYPE_ID().equals(other.getPAY_TYPE_ID()))
+            && (this.getPLATFORM_AMOUNT() == null ? other.getPLATFORM_AMOUNT() == null : this.getPLATFORM_AMOUNT().equals(other.getPLATFORM_AMOUNT()))
+            && (this.getMERCHANT_AMOUNT() == null ? other.getMERCHANT_AMOUNT() == null : this.getMERCHANT_AMOUNT().equals(other.getMERCHANT_AMOUNT()))
+            && (this.getCHANNEL_AMOUNT() == null ? other.getCHANNEL_AMOUNT() == null : this.getCHANNEL_AMOUNT().equals(other.getCHANNEL_AMOUNT()))
+            && (this.getDISCOUNT() == null ? other.getDISCOUNT() == null : this.getDISCOUNT().equals(other.getDISCOUNT()))
+            && (this.getORG_ID() == null ? other.getORG_ID() == null : this.getORG_ID().equals(other.getORG_ID()))
+            && (this.getMERCHANT_ID() == null ? other.getMERCHANT_ID() == null : this.getMERCHANT_ID().equals(other.getMERCHANT_ID()))
+            && (this.getMERCHANT_NAME() == null ? other.getMERCHANT_NAME() == null : this.getMERCHANT_NAME().equals(other.getMERCHANT_NAME()))
+            && (this.getMERCHANT_SERVICE_AMOUNT() == null ? other.getMERCHANT_SERVICE_AMOUNT() == null : this.getMERCHANT_SERVICE_AMOUNT().equals(other.getMERCHANT_SERVICE_AMOUNT()))
+            && (this.getCLE_SCENE_NO() == null ? other.getCLE_SCENE_NO() == null : this.getCLE_SCENE_NO().equals(other.getCLE_SCENE_NO()))
+            && (this.getCHANNEL_SERVICE_AMOUNT() == null ? other.getCHANNEL_SERVICE_AMOUNT() == null : this.getCHANNEL_SERVICE_AMOUNT().equals(other.getCHANNEL_SERVICE_AMOUNT()))
+            && (this.getSTL_AMOUNT() == null ? other.getSTL_AMOUNT() == null : this.getSTL_AMOUNT().equals(other.getSTL_AMOUNT()));
     }
 
     /**
@@ -662,6 +1052,22 @@ public class T_pay_order_refund implements Serializable {
         result = prime * result + ((getREFUND_DATE() == null) ? 0 : getREFUND_DATE().hashCode());
         result = prime * result + ((getCHECK_STATUS() == null) ? 0 : getCHECK_STATUS().hashCode());
         result = prime * result + ((getCHECK_DATE() == null) ? 0 : getCHECK_DATE().hashCode());
+        result = prime * result + ((getCLE_STATUS() == null) ? 0 : getCLE_STATUS().hashCode());
+        result = prime * result + ((getSTL_BILL_NO() == null) ? 0 : getSTL_BILL_NO().hashCode());
+        result = prime * result + ((getSTL_STATUS() == null) ? 0 : getSTL_STATUS().hashCode());
+        result = prime * result + ((getTOP_ORG_ID() == null) ? 0 : getTOP_ORG_ID().hashCode());
+        result = prime * result + ((getPAY_TYPE_ID() == null) ? 0 : getPAY_TYPE_ID().hashCode());
+        result = prime * result + ((getPLATFORM_AMOUNT() == null) ? 0 : getPLATFORM_AMOUNT().hashCode());
+        result = prime * result + ((getMERCHANT_AMOUNT() == null) ? 0 : getMERCHANT_AMOUNT().hashCode());
+        result = prime * result + ((getCHANNEL_AMOUNT() == null) ? 0 : getCHANNEL_AMOUNT().hashCode());
+        result = prime * result + ((getDISCOUNT() == null) ? 0 : getDISCOUNT().hashCode());
+        result = prime * result + ((getORG_ID() == null) ? 0 : getORG_ID().hashCode());
+        result = prime * result + ((getMERCHANT_ID() == null) ? 0 : getMERCHANT_ID().hashCode());
+        result = prime * result + ((getMERCHANT_NAME() == null) ? 0 : getMERCHANT_NAME().hashCode());
+        result = prime * result + ((getMERCHANT_SERVICE_AMOUNT() == null) ? 0 : getMERCHANT_SERVICE_AMOUNT().hashCode());
+        result = prime * result + ((getCLE_SCENE_NO() == null) ? 0 : getCLE_SCENE_NO().hashCode());
+        result = prime * result + ((getCHANNEL_SERVICE_AMOUNT() == null) ? 0 : getCHANNEL_SERVICE_AMOUNT().hashCode());
+        result = prime * result +((getSTL_AMOUNT() == null) ? 0 : getSTL_AMOUNT().hashCode());
         return result;
     }
 }

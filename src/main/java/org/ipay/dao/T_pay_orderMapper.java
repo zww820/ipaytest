@@ -31,6 +31,13 @@ public interface T_pay_orderMapper {
      * @param ID
      */
     T_pay_order selectByPrimaryKey(BigDecimal ID);
+    
+    /**
+     * 根据订单编号获取一条数据记录
+     * 
+     * @param order_no
+     */
+    T_pay_order selectjineBycheckdateandorderno(String order_no);
 
     /**
      * 根据主键来更新部分数据库记录
@@ -45,4 +52,10 @@ public interface T_pay_orderMapper {
      * @param record
      */
     int updateByPrimaryKey(T_pay_order record);
+    
+    /**
+     * 根据订单编号更新状态
+     * @param status,order_no
+     */
+    void updatestatusByorderno(String status,String order_no);
 }

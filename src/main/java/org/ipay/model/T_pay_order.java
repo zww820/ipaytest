@@ -6,314 +6,309 @@ import java.util.Date;
 
 public class T_pay_order implements Serializable {
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : ID
      */
     private Long ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_PAY_TIME
      */
     private Date CHANNEL_PAY_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : TOP_ORG_ID
      */
     private BigDecimal TOP_ORG_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : OPEN_ID
      */
     private String OPEN_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : ORDER_NO
      */
     private String ORDER_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : TRADE_NO
      */
     private String TRADE_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_ID
      */
     private BigDecimal CHANNEL_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_CODE
      */
     private String CHANNEL_CODE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : SHOP_ID
      */
     private BigDecimal SHOP_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : PAY_TYPE_ID
      */
     private BigDecimal PAY_TYPE_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : STATUS
      */
     private String STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : PLATFORM_AMOUNT
      */
     private BigDecimal PLATFORM_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_AMOUNT
      */
     private BigDecimal MERCHANT_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_AMOUNT
      */
     private BigDecimal CHANNEL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : DISCOUNT
      */
     private BigDecimal DISCOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : PLATFORM_DISCOUNT
      */
     private BigDecimal PLATFORM_DISCOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_DISCOUNT
      */
     private BigDecimal MERCHANT_DISCOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_DISCOUNT
      */
     private BigDecimal CHANNEL_DISCOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : GIFT_POINTS
      */
     private Long GIFT_POINTS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : TOTOL_DISCOUNT
      */
     private BigDecimal TOTOL_DISCOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : ORG_ID
      */
     private BigDecimal ORG_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : ORG_IDS
      */
     private String ORG_IDS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_ID
      */
     private BigDecimal MERCHANT_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : STAFF_ID
      */
     private BigDecimal STAFF_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CREATED_NAME
      */
     private String CREATED_NAME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : DEP_ID
      */
     private BigDecimal DEP_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : SHOP_NAME
      */
     private String SHOP_NAME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_NAME
      */
     private String MERCHANT_NAME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : VALIDATE_CODE
      */
     private Long VALIDATE_CODE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MESSAGE
      */
     private String MESSAGE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : ACTION_LOG_ID
      */
     private BigDecimal ACTION_LOG_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CREATED_ID
      */
     private BigDecimal CREATED_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CREATED_TIME
      */
     private Date CREATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : UPDATED_ID
      */
     private BigDecimal UPDATED_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : UPDATED_TIME
      */
     private Date UPDATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : REMARK
      */
     private String REMARK;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : LEAVE_MESSAGE
      */
     private String LEAVE_MESSAGE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : TRADE_DATE
      */
     private String TRADE_DATE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHECK_STATUS
      */
     private String CHECK_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHECK_DATE
      */
     private String CHECK_DATE;
 
-    /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
-     * 对应字段 : CHANNEL_FEE
-     */
-    private BigDecimal CHANNEL_FEE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CLE_SCENE_NO
      */
     private String CLE_SCENE_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CLE_STATUS
      */
     private Integer CLE_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_SERVICE_RATE
      */
     private BigDecimal MERCHANT_SERVICE_RATE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : MERCHANT_SERVICE_AMOUNT
      */
     private BigDecimal MERCHANT_SERVICE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : CHANNEL_SERVICE_AMOUNT
      */
     private BigDecimal CHANNEL_SERVICE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : PLATFORM_SERVICE_AMOUNT
      */
     private BigDecimal PLATFORM_SERVICE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : PLATFORM_RD_SERVICE_AMOUNT
      */
     private BigDecimal PLATFORM_RD_SERVICE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : STL_AMOUNT
      */
     private BigDecimal STL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : STL_BILL_NO
      */
     private BigDecimal STL_BILL_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_PAY_ORDER
+     * 表 : T_PAY_ORDER
      * 对应字段 : STL_STATUS
      */
     private Integer STL_STATUS;
 
     /**
      * This field was generated by MyBatis Generator.
-     * This field corresponds to the database table IPAY_CORE_TEST.T_PAY_ORDER
+     * This field corresponds to the database table T_PAY_ORDER
      *
      * @MBG Generated Thu Aug 24 09:26:50 CST 2017
      */
@@ -322,7 +317,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.ID：null
+     * @return T_PAY_ORDER.ID：null
      */
     public Long getID() {
         return ID;
@@ -340,7 +335,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_PAY_TIME：null
+     * @return T_PAY_ORDER.CHANNEL_PAY_TIME：null
      */
     public Date getCHANNEL_PAY_TIME() {
         return CHANNEL_PAY_TIME;
@@ -358,7 +353,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.TOP_ORG_ID：null
+     * @return T_PAY_ORDER.TOP_ORG_ID：null
      */
     public BigDecimal getTOP_ORG_ID() {
         return TOP_ORG_ID;
@@ -376,7 +371,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.OPEN_ID：null
+     * @return T_PAY_ORDER.OPEN_ID：null
      */
     public String getOPEN_ID() {
         return OPEN_ID;
@@ -394,7 +389,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.ORDER_NO：null
+     * @return T_PAY_ORDER.ORDER_NO：null
      */
     public String getORDER_NO() {
         return ORDER_NO;
@@ -412,7 +407,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.TRADE_NO：null
+     * @return T_PAY_ORDER.TRADE_NO：null
      */
     public String getTRADE_NO() {
         return TRADE_NO;
@@ -430,7 +425,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_ID：null
+     * @return T_PAY_ORDER.CHANNEL_ID：null
      */
     public BigDecimal getCHANNEL_ID() {
         return CHANNEL_ID;
@@ -448,7 +443,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_CODE：null
+     * @return T_PAY_ORDER.CHANNEL_CODE：null
      */
     public String getCHANNEL_CODE() {
         return CHANNEL_CODE;
@@ -466,7 +461,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.SHOP_ID：null
+     * @return T_PAY_ORDER.SHOP_ID：null
      */
     public BigDecimal getSHOP_ID() {
         return SHOP_ID;
@@ -484,7 +479,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.PAY_TYPE_ID：null
+     * @return T_PAY_ORDER.PAY_TYPE_ID：null
      */
     public BigDecimal getPAY_TYPE_ID() {
         return PAY_TYPE_ID;
@@ -502,7 +497,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.STATUS：null
+     * @return T_PAY_ORDER.STATUS：null
      */
     public String getSTATUS() {
         return STATUS;
@@ -520,7 +515,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.PLATFORM_AMOUNT：null
+     * @return T_PAY_ORDER.PLATFORM_AMOUNT：null
      */
     public BigDecimal getPLATFORM_AMOUNT() {
         return PLATFORM_AMOUNT;
@@ -538,7 +533,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_AMOUNT：null
+     * @return T_PAY_ORDER.MERCHANT_AMOUNT：null
      */
     public BigDecimal getMERCHANT_AMOUNT() {
         return MERCHANT_AMOUNT;
@@ -556,7 +551,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_AMOUNT：null
+     * @return T_PAY_ORDER.CHANNEL_AMOUNT：null
      */
     public BigDecimal getCHANNEL_AMOUNT() {
         return CHANNEL_AMOUNT;
@@ -574,7 +569,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.DISCOUNT：null
+     * @return T_PAY_ORDER.DISCOUNT：null
      */
     public BigDecimal getDISCOUNT() {
         return DISCOUNT;
@@ -592,7 +587,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.PLATFORM_DISCOUNT：null
+     * @return T_PAY_ORDER.PLATFORM_DISCOUNT：null
      */
     public BigDecimal getPLATFORM_DISCOUNT() {
         return PLATFORM_DISCOUNT;
@@ -610,7 +605,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_DISCOUNT：null
+     * @return T_PAY_ORDER.MERCHANT_DISCOUNT：null
      */
     public BigDecimal getMERCHANT_DISCOUNT() {
         return MERCHANT_DISCOUNT;
@@ -628,7 +623,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_DISCOUNT：null
+     * @return T_PAY_ORDER.CHANNEL_DISCOUNT：null
      */
     public BigDecimal getCHANNEL_DISCOUNT() {
         return CHANNEL_DISCOUNT;
@@ -646,7 +641,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.GIFT_POINTS：null
+     * @return T_PAY_ORDER.GIFT_POINTS：null
      */
     public Long getGIFT_POINTS() {
         return GIFT_POINTS;
@@ -664,7 +659,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.TOTOL_DISCOUNT：null
+     * @return T_PAY_ORDER.TOTOL_DISCOUNT：null
      */
     public BigDecimal getTOTOL_DISCOUNT() {
         return TOTOL_DISCOUNT;
@@ -682,7 +677,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.ORG_ID：null
+     * @return T_PAY_ORDER.ORG_ID：null
      */
     public BigDecimal getORG_ID() {
         return ORG_ID;
@@ -700,7 +695,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.ORG_IDS：null
+     * @return T_PAY_ORDER.ORG_IDS：null
      */
     public String getORG_IDS() {
         return ORG_IDS;
@@ -718,7 +713,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_ID：null
+     * @return T_PAY_ORDER.MERCHANT_ID：null
      */
     public BigDecimal getMERCHANT_ID() {
         return MERCHANT_ID;
@@ -736,7 +731,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.STAFF_ID：null
+     * @return T_PAY_ORDER.STAFF_ID：null
      */
     public BigDecimal getSTAFF_ID() {
         return STAFF_ID;
@@ -754,7 +749,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CREATED_NAME：null
+     * @return T_PAY_ORDER.CREATED_NAME：null
      */
     public String getCREATED_NAME() {
         return CREATED_NAME;
@@ -772,7 +767,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.DEP_ID：null
+     * @return T_PAY_ORDER.DEP_ID：null
      */
     public BigDecimal getDEP_ID() {
         return DEP_ID;
@@ -790,7 +785,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.SHOP_NAME：null
+     * @return T_PAY_ORDER.SHOP_NAME：null
      */
     public String getSHOP_NAME() {
         return SHOP_NAME;
@@ -808,7 +803,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_NAME：null
+     * @return T_PAY_ORDER.MERCHANT_NAME：null
      */
     public String getMERCHANT_NAME() {
         return MERCHANT_NAME;
@@ -826,7 +821,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.VALIDATE_CODE：null
+     * @return T_PAY_ORDER.VALIDATE_CODE：null
      */
     public Long getVALIDATE_CODE() {
         return VALIDATE_CODE;
@@ -844,7 +839,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MESSAGE：null
+     * @return T_PAY_ORDER.MESSAGE：null
      */
     public String getMESSAGE() {
         return MESSAGE;
@@ -862,7 +857,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.ACTION_LOG_ID：null
+     * @return T_PAY_ORDER.ACTION_LOG_ID：null
      */
     public BigDecimal getACTION_LOG_ID() {
         return ACTION_LOG_ID;
@@ -880,7 +875,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CREATED_ID：null
+     * @return T_PAY_ORDER.CREATED_ID：null
      */
     public BigDecimal getCREATED_ID() {
         return CREATED_ID;
@@ -898,7 +893,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CREATED_TIME：null
+     * @return T_PAY_ORDER.CREATED_TIME：null
      */
     public Date getCREATED_TIME() {
         return CREATED_TIME;
@@ -916,7 +911,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.UPDATED_ID：null
+     * @return T_PAY_ORDER.UPDATED_ID：null
      */
     public BigDecimal getUPDATED_ID() {
         return UPDATED_ID;
@@ -934,7 +929,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.UPDATED_TIME：null
+     * @return T_PAY_ORDER.UPDATED_TIME：null
      */
     public Date getUPDATED_TIME() {
         return UPDATED_TIME;
@@ -952,7 +947,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.REMARK：null
+     * @return T_PAY_ORDER.REMARK：null
      */
     public String getREMARK() {
         return REMARK;
@@ -970,7 +965,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.LEAVE_MESSAGE：null
+     * @return T_PAY_ORDER.LEAVE_MESSAGE：null
      */
     public String getLEAVE_MESSAGE() {
         return LEAVE_MESSAGE;
@@ -988,7 +983,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.TRADE_DATE：null
+     * @return T_PAY_ORDER.TRADE_DATE：null
      */
     public String getTRADE_DATE() {
         return TRADE_DATE;
@@ -1006,7 +1001,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHECK_STATUS：null
+     * @return T_PAY_ORDER.CHECK_STATUS：null
      */
     public String getCHECK_STATUS() {
         return CHECK_STATUS;
@@ -1024,7 +1019,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHECK_DATE：null
+     * @return T_PAY_ORDER.CHECK_DATE：null
      */
     public String getCHECK_DATE() {
         return CHECK_DATE;
@@ -1039,28 +1034,12 @@ public class T_pay_order implements Serializable {
         this.CHECK_DATE = CHECK_DATE == null ? null : CHECK_DATE.trim();
     }
 
-    /**
-     * get method 
-     *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_FEE：null
-     */
-    public BigDecimal getCHANNEL_FEE() {
-        return CHANNEL_FEE;
-    }
 
-    /**
-     * set method 
-     *
-     * @param CHANNEL_FEE  null
-     */
-    public void setCHANNEL_FEE(BigDecimal CHANNEL_FEE) {
-        this.CHANNEL_FEE = CHANNEL_FEE;
-    }
 
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CLE_SCENE_NO：null
+     * @return T_PAY_ORDER.CLE_SCENE_NO：null
      */
     public String getCLE_SCENE_NO() {
         return CLE_SCENE_NO;
@@ -1078,7 +1057,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CLE_STATUS：null
+     * @return T_PAY_ORDER.CLE_STATUS：null
      */
     public Integer getCLE_STATUS() {
         return CLE_STATUS;
@@ -1096,7 +1075,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_SERVICE_RATE：null
+     * @return T_PAY_ORDER.MERCHANT_SERVICE_RATE：null
      */
     public BigDecimal getMERCHANT_SERVICE_RATE() {
         return MERCHANT_SERVICE_RATE;
@@ -1114,7 +1093,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.MERCHANT_SERVICE_AMOUNT：null
+     * @return T_PAY_ORDER.MERCHANT_SERVICE_AMOUNT：null
      */
     public BigDecimal getMERCHANT_SERVICE_AMOUNT() {
         return MERCHANT_SERVICE_AMOUNT;
@@ -1132,7 +1111,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.CHANNEL_SERVICE_AMOUNT：null
+     * @return T_PAY_ORDER.CHANNEL_SERVICE_AMOUNT：null
      */
     public BigDecimal getCHANNEL_SERVICE_AMOUNT() {
         return CHANNEL_SERVICE_AMOUNT;
@@ -1150,7 +1129,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.PLATFORM_SERVICE_AMOUNT：null
+     * @return T_PAY_ORDER.PLATFORM_SERVICE_AMOUNT：null
      */
     public BigDecimal getPLATFORM_SERVICE_AMOUNT() {
         return PLATFORM_SERVICE_AMOUNT;
@@ -1168,7 +1147,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.PLATFORM_RD_SERVICE_AMOUNT：null
+     * @return T_PAY_ORDER.PLATFORM_RD_SERVICE_AMOUNT：null
      */
     public BigDecimal getPLATFORM_RD_SERVICE_AMOUNT() {
         return PLATFORM_RD_SERVICE_AMOUNT;
@@ -1186,7 +1165,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.STL_AMOUNT：null
+     * @return T_PAY_ORDER.STL_AMOUNT：null
      */
     public BigDecimal getSTL_AMOUNT() {
         return STL_AMOUNT;
@@ -1204,7 +1183,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.STL_BILL_NO：null
+     * @return T_PAY_ORDER.STL_BILL_NO：null
      */
     public BigDecimal getSTL_BILL_NO() {
         return STL_BILL_NO;
@@ -1222,7 +1201,7 @@ public class T_pay_order implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_PAY_ORDER.STL_STATUS：null
+     * @return T_PAY_ORDER.STL_STATUS：null
      */
     public Integer getSTL_STATUS() {
         return STL_STATUS;
@@ -1293,7 +1272,6 @@ public class T_pay_order implements Serializable {
             && (this.getTRADE_DATE() == null ? other.getTRADE_DATE() == null : this.getTRADE_DATE().equals(other.getTRADE_DATE()))
             && (this.getCHECK_STATUS() == null ? other.getCHECK_STATUS() == null : this.getCHECK_STATUS().equals(other.getCHECK_STATUS()))
             && (this.getCHECK_DATE() == null ? other.getCHECK_DATE() == null : this.getCHECK_DATE().equals(other.getCHECK_DATE()))
-            && (this.getCHANNEL_FEE() == null ? other.getCHANNEL_FEE() == null : this.getCHANNEL_FEE().equals(other.getCHANNEL_FEE()))
             && (this.getCLE_SCENE_NO() == null ? other.getCLE_SCENE_NO() == null : this.getCLE_SCENE_NO().equals(other.getCLE_SCENE_NO()))
             && (this.getCLE_STATUS() == null ? other.getCLE_STATUS() == null : this.getCLE_STATUS().equals(other.getCLE_STATUS()))
             && (this.getMERCHANT_SERVICE_RATE() == null ? other.getMERCHANT_SERVICE_RATE() == null : this.getMERCHANT_SERVICE_RATE().equals(other.getMERCHANT_SERVICE_RATE()))
@@ -1353,7 +1331,6 @@ public class T_pay_order implements Serializable {
         result = prime * result + ((getTRADE_DATE() == null) ? 0 : getTRADE_DATE().hashCode());
         result = prime * result + ((getCHECK_STATUS() == null) ? 0 : getCHECK_STATUS().hashCode());
         result = prime * result + ((getCHECK_DATE() == null) ? 0 : getCHECK_DATE().hashCode());
-        result = prime * result + ((getCHANNEL_FEE() == null) ? 0 : getCHANNEL_FEE().hashCode());
         result = prime * result + ((getCLE_SCENE_NO() == null) ? 0 : getCLE_SCENE_NO().hashCode());
         result = prime * result + ((getCLE_STATUS() == null) ? 0 : getCLE_STATUS().hashCode());
         result = prime * result + ((getMERCHANT_SERVICE_RATE() == null) ? 0 : getMERCHANT_SERVICE_RATE().hashCode());

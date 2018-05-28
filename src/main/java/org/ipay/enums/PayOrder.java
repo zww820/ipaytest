@@ -25,7 +25,17 @@ public enum PayOrder {
 	RECONCILIATION_EQUAL("1","对平"),
 	RECONCILIATION_UNEQUAL("2","未对平"),
 	RECONCILIATION_SHORT("9","差异短款"),
-	RECONCILIATION_LONG("10","差异长款");
+	RECONCILIATION_LONG("10","差异长款"),
+	
+	/**
+	 * 清算状态
+	 * 0：清算成功；1：未清算；2：清算中；3：清算失败
+	 */
+	CLEARING_STATUS("","状态"),
+	CLEARING_SUCCESS("0","清算成功"),
+	CLEARING_NO("1","未清算"),
+	CLEARING_PENDING("2","清算中"),
+	CLEARING_FAILURE("3","清算失败");
 	
 	private String value;
 	private String text;

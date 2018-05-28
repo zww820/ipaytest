@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.ipay.dao.T_merchant_relatedMpper">
+    <resultMap id="BaseResultMap" type="org.ipay.model.T_merchant_related">
+        <result column="MERCHANT_ID" property="MERCHANT_ID"></result>
+        <result column="MERCHANT_NAME" property="MERCHANT_NAME"></result>
+        <result column="ORG_ID" property="ORG_ID"></result>
+        <result column="RATE_TMP_TYPE_ID" property="RATE_TMP_TYPE_ID"></result>
+        <result column="SHOP_ID" property="SHOP_ID"></result>
+        <result column="SHOP_NAME" property="SHOP_NAME"></result>
+    </resultMap>
+
+    <select id="search" resultMap="BaseResultMap" parameterType="Long">
+SELECT B.MERCHANT_ID,
+       A.ORG_ID,
+       A.MERCHANT_NAME,
+       B.RATE_ID       AS RATE_TMP_TYPE_ID,
+       C.ID            AS SHOP_ID,
+       C.SHOP_NAME
+  FROM T_MERCHANT A
+  LEFT JOIN T_MERCHANT_BASIC_INFO B
+    ON A.ID = B.MERCHANT_ID
+  LEFT JOIN T_MERCHANT_SHOP C
+    ON A.ID = C.MERCHANT_ID
+ WHERE A.ENABLED_STATUS = '0'
+   AND A.APPROVAL_STATUS = '1'
+   AND A.ACTIVE_STATUS = '1'
+   AND C.APPROVAL_STATUS = '1'
+   AND C.STATUS = '0'
+   AND C.ONLINE_STATUS = '1'
+   AND EXISTS
+ (SELECT 1 FROM T_RATE_TEMPLATE_TYPE D WHERE D.ID = B.RATE_ID)
+   AND A.ID=#{ID}
+   AND ROWNUM = 1
+    </select>
+</mapper>

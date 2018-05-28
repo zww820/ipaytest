@@ -17,7 +17,7 @@ public interface T_channel_bill_detailsServer {
 	
 	public void insertData(String check_date,String channel_code,String channel_order_no,String out_order_no,
 			String channel_total_amount,String channel_discount_amount,String channel_refund_no,String out_refund_no,String fee,String business_type,
-			String check_status,String date);
+			String check_status,String date,String pay_type);
 	
 	public void updateData();
 }

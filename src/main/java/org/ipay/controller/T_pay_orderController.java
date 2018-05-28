@@ -1,16 +1,13 @@
 package org.ipay.controller;
 
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 
-import org.apache.log4j.Logger;
+import org.apache.commons.lang.StringUtils;
 import org.ipay.enums.ChannelEnum;
 import org.ipay.enums.PayOrder;
 import org.ipay.model.T_pay_order;
@@ -22,13 +19,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 
 /**
  * @author Audience
- * @param <V>
- * @param <K>
+ * @param
+ * @param
  * @since 2017年8月14日 上午10:09:41
  */
 @Controller
@@ -58,12 +54,14 @@ public class T_pay_orderController {
 			@RequestParam("CHANNEL_CODE") List<String> channel_code,
 			@RequestParam("date") String date,Model model){
 		try{
-			if(!status.isEmpty()&&!check_status.isEmpty()&&!check_date.isEmpty()&&!channel_code.isEmpty()&&!date.isEmpty()){
+			if(!status.isEmpty()&&!check_status.isEmpty()&&!StringUtils.isEmpty(check_date)&&!channel_code.isEmpty()&&!StringUtils.isEmpty(date)){
 				for(String i:status){
 					for(String j:check_status){
 						for(String k:channel_code){
 							t_pay_orderServer.insertData(date,randparams.randonStoInt(17), randparams.randonStoInt(28), i,
-									randparams.randomMoney(7), randparams.randomMoney(7), randparams.randomMoney(7), j, check_date, k,randparams.randomMoney(2));
+									randparams.randomMoney(7), randparams.randomMoney(7), randparams.randomMoney(7), j, check_date, k,randparams.randomMoney(2),"" +
+											"1","1","1","1","1","1","1","1","1","1","1");
+
 						}
 					}
 				}

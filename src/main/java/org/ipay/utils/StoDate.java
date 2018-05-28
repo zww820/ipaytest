@@ -18,6 +18,12 @@ public class StoDate {
 		return sqldate;
 	}
 	
+//	public Date StoDate(String date) throws ParseException{
+//		java.util.Date d = null;
+//		d=sdf.parse(date);
+//		return d;
+//	}
+	
 	public String DtoString(Date date){
 		return sdf.format(date);
 	}

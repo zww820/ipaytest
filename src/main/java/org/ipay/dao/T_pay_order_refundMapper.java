@@ -45,4 +45,11 @@ public interface T_pay_order_refundMapper {
      * @param record
      */
     int updateByPrimaryKey(T_pay_order_refund record);
+    
+    /**
+     * 根据订单号更新金额
+     * 
+     * @param orderno
+     */
+    void updatejineByorderno(T_pay_order_refund record);
 }

@@ -38,13 +38,15 @@ public class T_channel_bill_detailsServerImpl implements T_channel_bill_detailsS
 
 	public void insertData(String check_date,String channel_code,String channel_order_no,String out_order_no,
 			String channel_total_amount,String channel_discount_amount,String channel_refund_no,String out_refund_no,String fee,String business_type,
-			String check_status,String date) {
+			String check_status,String date,String pay_type) {
 		try{
 			int channel_id;
 			if(channel_code.equals(ChannelEnum.WXPAY.getValue())){
 				channel_id=1;
-			}else{
+			}else if(channel_code.equals(ChannelEnum.ALIPAY.getValue())){
 				channel_id=2;
+			}else {
+				channel_id=5;
 			}
 			// TODO Auto-generated method stub
 			t_channel_bill_details.setCHECK_DATE(check_date);
@@ -52,6 +54,7 @@ public class T_channel_bill_detailsServerImpl implements T_channel_bill_detailsS
 			t_channel_bill_details.setCHANNEL_CODE(channel_code);
 			t_channel_bill_details.setCHANNEL_ORDER_NO(channel_order_no);
 			t_channel_bill_details.setOUT_ORDER_NO(out_order_no);
+			t_channel_bill_details.setPAY_TYPE(pay_type);
 			t_channel_bill_details.setBUSINESS_TYPE(business_type);
 			t_channel_bill_details.setCHANNEL_TOTAL_AMOUNT(new BigDecimal(channel_total_amount));
 			t_channel_bill_details.setCHANNEL_DISCOUNT_AMOUNT(new BigDecimal(channel_discount_amount));

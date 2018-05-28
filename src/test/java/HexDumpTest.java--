@@ -1,0 +1,12 @@
+/**
+ * author:Audience
+ * date:2018/4/9
+ * time:18:28
+ */
+public class HexDumpTest {
+
+    public static void main(String args[]){
+        byte[] bytes=new byte[]{61,17,7d,a0,c7,16,e0,4f,d0,92,0b,44,87,18,b4,da,39,f1,ec,b5};
+        HexDump.toHexString(bytes);
+    }
+}

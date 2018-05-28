@@ -27,7 +27,7 @@
             <property name="suppressDate" value="false" />  
      </commentGenerator>
     
-    <jdbcConnection connectionURL="jdbc:oracle:thin:@121.196.216.209:1521:orcl" driverClass="oracle.jdbc.OracleDriver" password="core0608" userId="IPAY_CORE_TEST" />
+    <jdbcConnection connectionURL="jdbc:oracle:thin:@200.100.49.159:1521:qwsd" driverClass="oracle.jdbc.OracleDriver" password="core0608" userId=" />
     <javaModelGenerator targetPackage="org.ipay.model" targetProject="src/main/java">
             <property name="trimStrings" value="true"/>
     </javaModelGenerator>
@@ -35,10 +35,9 @@
     </sqlMapGenerator> 
     <javaClientGenerator targetPackage="org.ipay.dao" targetProject="src/main/java" type="XMLMAPPER" >
     </javaClientGenerator>
-    <table schema="IPAY_CORE_TEST" tableName="T_PAY_ORDER"  domainObjectName="T_pay_order"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+    <table schema=" tableName="T_MERCHANT_SHOP"  domainObjectName="T_merchant_shop"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
       <property name="useActualColumnNames" value="true"/>
     </table>
-    
   </context>
 </generatorConfiguration>

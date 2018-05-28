@@ -6,218 +6,218 @@ import java.util.Date;
 
 public class T_check_acc_info_sta implements Serializable {
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : ID
      */
     private BigDecimal ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHECK_DATE
      */
     private String CHECK_DATE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_ID
      */
     private BigDecimal CHANNEL_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_CODE
      */
     private String CHANNEL_CODE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_TRADE_AMOUNT
      */
     private BigDecimal OUR_TRADE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_REFUND_AMOUNT
      */
     private BigDecimal OUR_REFUND_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_DISCOUNT_AMOUNT
      */
     private BigDecimal OUR_DISCOUNT_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_TRADE_NUM
      */
     private Integer OUR_TRADE_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_REFUND_NUM
      */
     private Integer OUR_REFUND_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_TRADE_AMOUNT
      */
     private BigDecimal CHANNEL_TRADE_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_REFUND_AMOUNT
      */
     private BigDecimal CHANNEL_REFUND_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_DISCOUNT_AMOUNT
      */
     private BigDecimal CHANNEL_DISCOUNT_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_TRADE_FEE
      */
     private BigDecimal CHANNEL_TRADE_FEE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_REFUND_FEE
      */
     private BigDecimal CHANNEL_REFUND_FEE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_TRADE_NUM
      */
     private Integer CHANNEL_TRADE_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_REFUND_NUM
      */
     private Integer CHANNEL_REFUND_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : TRADE_EQUAL_AMOUNT
      */
     private BigDecimal TRADE_EQUAL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : REFUND_EQUAL_AMOUNT
      */
     private BigDecimal REFUND_EQUAL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : TRADE_NOEQUAL_AMOUNT
      */
     private BigDecimal TRADE_NOEQUAL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : REFUND_NOEQUAL_AMOUNT
      */
     private BigDecimal REFUND_NOEQUAL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_TRADE_DIFFER_AMOUNT
      */
     private BigDecimal OUR_TRADE_DIFFER_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_TRADE_DIFFER_AMOUNT
      */
     private BigDecimal CHANNEL_TRADE_DIFFER_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_REFUND_DIFFER_AMOUNT
      */
     private BigDecimal OUR_REFUND_DIFFER_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_REFUND_DIFFER_AMOUNT
      */
     private BigDecimal CHANNEL_REFUND_DIFFER_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : TRADE_EQUAL_NUM
      */
     private Integer TRADE_EQUAL_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : TRADE_NOEQUAL_NUM
      */
     private Integer TRADE_NOEQUAL_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : REFUND_EQUAL_NUM
      */
     private Integer REFUND_EQUAL_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : REFUND_NOEQUAL_NUM
      */
     private Integer REFUND_NOEQUAL_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_TRADE_DIFFER_NUM
      */
     private Integer OUR_TRADE_DIFFER_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_TRADE_DIFFER_NUM
      */
     private Integer CHANNEL_TRADE_DIFFER_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : OUR_REFUND_DIFFER_NUM
      */
     private Integer OUR_REFUND_DIFFER_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CHANNEL_REFUND_DIFFER_NUM
      */
     private Integer CHANNEL_REFUND_DIFFER_NUM;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : RESULT_STATUS
      */
     private String RESULT_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : CREATED_TIME
      */
     private Date CREATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * 表 : T_CHECK_ACC_INFO_STA
      * 对应字段 : UPDATED_TIME
      */
     private Date UPDATED_TIME;
 
     /**
      * This field was generated by MyBatis Generator.
-     * This field corresponds to the database table IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA
+     * This field corresponds to the database table T_CHECK_ACC_INFO_STA
      *
      * @MBG Generated Mon Aug 07 19:43:33 CST 2017
      */
@@ -226,7 +226,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.ID：null
+     * @return T_CHECK_ACC_INFO_STA.ID：null
      */
     public BigDecimal getID() {
         return ID;
@@ -244,7 +244,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHECK_DATE：null
+     * @return T_CHECK_ACC_INFO_STA.CHECK_DATE：null
      */
     public String getCHECK_DATE() {
         return CHECK_DATE;
@@ -262,7 +262,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_ID：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_ID：null
      */
     public BigDecimal getCHANNEL_ID() {
         return CHANNEL_ID;
@@ -280,7 +280,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_CODE：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_CODE：null
      */
     public String getCHANNEL_CODE() {
         return CHANNEL_CODE;
@@ -298,7 +298,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_TRADE_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_TRADE_AMOUNT：null
      */
     public BigDecimal getOUR_TRADE_AMOUNT() {
         return OUR_TRADE_AMOUNT;
@@ -316,7 +316,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_REFUND_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_REFUND_AMOUNT：null
      */
     public BigDecimal getOUR_REFUND_AMOUNT() {
         return OUR_REFUND_AMOUNT;
@@ -334,7 +334,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_DISCOUNT_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_DISCOUNT_AMOUNT：null
      */
     public BigDecimal getOUR_DISCOUNT_AMOUNT() {
         return OUR_DISCOUNT_AMOUNT;
@@ -352,7 +352,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_TRADE_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_TRADE_NUM：null
      */
     public Integer getOUR_TRADE_NUM() {
         return OUR_TRADE_NUM;
@@ -370,7 +370,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_REFUND_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_REFUND_NUM：null
      */
     public Integer getOUR_REFUND_NUM() {
         return OUR_REFUND_NUM;
@@ -388,7 +388,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_AMOUNT：null
      */
     public BigDecimal getCHANNEL_TRADE_AMOUNT() {
         return CHANNEL_TRADE_AMOUNT;
@@ -406,7 +406,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_AMOUNT：null
      */
     public BigDecimal getCHANNEL_REFUND_AMOUNT() {
         return CHANNEL_REFUND_AMOUNT;
@@ -424,7 +424,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_DISCOUNT_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_DISCOUNT_AMOUNT：null
      */
     public BigDecimal getCHANNEL_DISCOUNT_AMOUNT() {
         return CHANNEL_DISCOUNT_AMOUNT;
@@ -442,7 +442,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_FEE：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_FEE：null
      */
     public BigDecimal getCHANNEL_TRADE_FEE() {
         return CHANNEL_TRADE_FEE;
@@ -460,7 +460,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_FEE：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_FEE：null
      */
     public BigDecimal getCHANNEL_REFUND_FEE() {
         return CHANNEL_REFUND_FEE;
@@ -478,7 +478,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_NUM：null
      */
     public Integer getCHANNEL_TRADE_NUM() {
         return CHANNEL_TRADE_NUM;
@@ -496,7 +496,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_NUM：null
      */
     public Integer getCHANNEL_REFUND_NUM() {
         return CHANNEL_REFUND_NUM;
@@ -514,7 +514,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.TRADE_EQUAL_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.TRADE_EQUAL_AMOUNT：null
      */
     public BigDecimal getTRADE_EQUAL_AMOUNT() {
         return TRADE_EQUAL_AMOUNT;
@@ -532,7 +532,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.REFUND_EQUAL_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.REFUND_EQUAL_AMOUNT：null
      */
     public BigDecimal getREFUND_EQUAL_AMOUNT() {
         return REFUND_EQUAL_AMOUNT;
@@ -550,7 +550,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.TRADE_NOEQUAL_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.TRADE_NOEQUAL_AMOUNT：null
      */
     public BigDecimal getTRADE_NOEQUAL_AMOUNT() {
         return TRADE_NOEQUAL_AMOUNT;
@@ -568,7 +568,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.REFUND_NOEQUAL_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.REFUND_NOEQUAL_AMOUNT：null
      */
     public BigDecimal getREFUND_NOEQUAL_AMOUNT() {
         return REFUND_NOEQUAL_AMOUNT;
@@ -586,7 +586,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_TRADE_DIFFER_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_TRADE_DIFFER_AMOUNT：null
      */
     public BigDecimal getOUR_TRADE_DIFFER_AMOUNT() {
         return OUR_TRADE_DIFFER_AMOUNT;
@@ -604,7 +604,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_DIFFER_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_DIFFER_AMOUNT：null
      */
     public BigDecimal getCHANNEL_TRADE_DIFFER_AMOUNT() {
         return CHANNEL_TRADE_DIFFER_AMOUNT;
@@ -622,7 +622,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_REFUND_DIFFER_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_REFUND_DIFFER_AMOUNT：null
      */
     public BigDecimal getOUR_REFUND_DIFFER_AMOUNT() {
         return OUR_REFUND_DIFFER_AMOUNT;
@@ -640,7 +640,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_DIFFER_AMOUNT：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_DIFFER_AMOUNT：null
      */
     public BigDecimal getCHANNEL_REFUND_DIFFER_AMOUNT() {
         return CHANNEL_REFUND_DIFFER_AMOUNT;
@@ -658,7 +658,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.TRADE_EQUAL_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.TRADE_EQUAL_NUM：null
      */
     public Integer getTRADE_EQUAL_NUM() {
         return TRADE_EQUAL_NUM;
@@ -676,7 +676,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.TRADE_NOEQUAL_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.TRADE_NOEQUAL_NUM：null
      */
     public Integer getTRADE_NOEQUAL_NUM() {
         return TRADE_NOEQUAL_NUM;
@@ -694,7 +694,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.REFUND_EQUAL_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.REFUND_EQUAL_NUM：null
      */
     public Integer getREFUND_EQUAL_NUM() {
         return REFUND_EQUAL_NUM;
@@ -712,7 +712,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.REFUND_NOEQUAL_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.REFUND_NOEQUAL_NUM：null
      */
     public Integer getREFUND_NOEQUAL_NUM() {
         return REFUND_NOEQUAL_NUM;
@@ -730,7 +730,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_TRADE_DIFFER_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_TRADE_DIFFER_NUM：null
      */
     public Integer getOUR_TRADE_DIFFER_NUM() {
         return OUR_TRADE_DIFFER_NUM;
@@ -748,7 +748,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_DIFFER_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_TRADE_DIFFER_NUM：null
      */
     public Integer getCHANNEL_TRADE_DIFFER_NUM() {
         return CHANNEL_TRADE_DIFFER_NUM;
@@ -766,7 +766,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.OUR_REFUND_DIFFER_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.OUR_REFUND_DIFFER_NUM：null
      */
     public Integer getOUR_REFUND_DIFFER_NUM() {
         return OUR_REFUND_DIFFER_NUM;
@@ -784,7 +784,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_DIFFER_NUM：null
+     * @return T_CHECK_ACC_INFO_STA.CHANNEL_REFUND_DIFFER_NUM：null
      */
     public Integer getCHANNEL_REFUND_DIFFER_NUM() {
         return CHANNEL_REFUND_DIFFER_NUM;
@@ -802,7 +802,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.RESULT_STATUS：null
+     * @return T_CHECK_ACC_INFO_STA.RESULT_STATUS：null
      */
     public String getRESULT_STATUS() {
         return RESULT_STATUS;
@@ -820,7 +820,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.CREATED_TIME：null
+     * @return T_CHECK_ACC_INFO_STA.CREATED_TIME：null
      */
     public Date getCREATED_TIME() {
         return CREATED_TIME;
@@ -838,7 +838,7 @@ public class T_check_acc_info_sta implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_ACC_INFO_STA.UPDATED_TIME：null
+     * @return T_CHECK_ACC_INFO_STA.UPDATED_TIME：null
      */
     public Date getUPDATED_TIME() {
         return UPDATED_TIME;

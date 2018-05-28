@@ -17,10 +17,11 @@ public enum ChannelBillEnum {
      * 		3：微信扫码收单；4：微信被扫收单。）
      */
 	PAY_TYPE("","支付类型"),
-	PAY_TYPE_ALIPAYING("1","支付宝扫码收单"),
-	PAY_TYPE_ALIPAYED("2","支付宝被扫收单"),
-	PAY_TYPE_WXPAYING("3","微信扫码收单"),
-	PAY_TYPE_WXPAYED("4","微信被扫收单"),
+	PAY_TYPE_PAYING("1","扫码收款"),
+	PAY_TYPE_PAYED("2","收款码"),
+	PAY_TYPE_POSPAYING("3","POS主扫"),
+	PAY_TYPE_POSPAYED("4","POS被扫"),
+	PAY_TYPE_POSSPEND("5","POS消费"),
 	
 	/**
 	 * 下载状态（0：无对账文件；1：下载成功；2：下载失败）

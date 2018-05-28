@@ -2,6 +2,7 @@ package org.ipay.utils;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.ipay.enums.ChannelBillEnum;
@@ -9,6 +10,52 @@ import org.ipay.enums.ChannelEnum;
 import org.ipay.enums.PayOrder;
 
 public class Constants {
+	/**
+	 * 时间
+	 */
+	public static Date CURRENT_TIME;
+	/**
+	 * 汇率模板ID
+	 */
+	public static long RATE_TMP_TYPE_ID;
+	public static long RATE_TMP_TYPE_ID_2;
+	/**
+	 * 商户号ID
+	 */
+	public static long MERCHANT_ID;
+	public static long MERCHANT_ID_2;
+	/**
+	 * 商户编号
+	 */
+	public static String MERCHANT_CODE;
+	/**
+	 * 商户名称
+	 */
+	public static String MERCHANT_NAME;
+	public static String MERCHANT_NAME_2;
+	/**
+	 * 商户简称
+	 */
+	public static String MERCHANT_NAME_SHORT;
+	/**
+	 * 机构ID
+	 */
+	public static long ORG_ID;
+	public static long ORG_ID_2;
+	/**
+	 * 机构code
+	 */
+	public static String ORG_CODE;
+	/**
+	 * 店铺ID
+	 */
+	public static long SHOP_ID;
+	public static long SHOP_ID_2;
+	/**
+	 * 店铺名称
+	 */
+	public static String SHOP_NAME;
+	public static String SHOP_NAME_2;
 	/**
 	 * 对账日期
 	 */

@@ -6,212 +6,212 @@ import java.util.Date;
 
 public class T_check_exception implements Serializable {
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ID
      */
     private BigDecimal ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ORDER_NO
      */
     private String ORDER_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : REFUND_NO
      */
     private String REFUND_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : BILL_ID
      */
     private BigDecimal BILL_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_ID
      */
     private BigDecimal CHANNEL_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : BUSINESS_TYPE
      */
     private String BUSINESS_TYPE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : MERCHANT_ID
      */
     private BigDecimal MERCHANT_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : SHOP_ID
      */
     private BigDecimal SHOP_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ORG_ID
      */
     private BigDecimal ORG_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : TOP_ORG_ID
      */
     private BigDecimal TOP_ORG_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : PAY_AMOUNT
      */
     private BigDecimal PAY_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ORDER_TRADE_TIME
      */
     private Date ORDER_TRADE_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ORDER_PAY_TYPE
      */
     private String ORDER_PAY_TYPE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : ORDER_STATUS
      */
     private String ORDER_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_ORDER_NO
      */
     private String CHANNEL_ORDER_NO;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_AMOUNT
      */
     private BigDecimal CHANNEL_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_DISCOUNT_AMOUNT
      */
     private BigDecimal CHANNEL_DISCOUNT_AMOUNT;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_EXPIRE_TIME
      */
     private Date CHANNEL_EXPIRE_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHANNEL_PAY_TYPE
      */
     private String CHANNEL_PAY_TYPE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHECK_DATE
      */
     private String CHECK_DATE;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CHECK_STATUS
      */
     private String CHECK_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : DEAL_WAY
      */
     private String DEAL_WAY;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : DEAL_STATUS
      */
     private String DEAL_STATUS;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : BELONG_MERCHANT_ID
      */
     private BigDecimal BELONG_MERCHANT_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : BELONG_SHOP_ID
      */
     private BigDecimal BELONG_SHOP_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : BELONG_STAFF_ID
      */
     private BigDecimal BELONG_STAFF_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CREDENTIALS_PATH
      */
     private String CREDENTIALS_PATH;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : DEAL_REASON
      */
     private String DEAL_REASON;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : DEAL_PERSON_ID
      */
     private BigDecimal DEAL_PERSON_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : DEAL_TIME
      */
     private Date DEAL_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CREATED_TIME
      */
     private Date CREATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : CREATED_ID
      */
     private BigDecimal CREATED_ID;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : UPDATED_TIME
      */
     private Date UPDATED_TIME;
 
     /**
-     * 表 : IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * 表 : T_CHECK_EXCEPTION
      * 对应字段 : UPDATED_ID
      */
     private BigDecimal UPDATED_ID;
 
     /**
      * This field was generated by MyBatis Generator.
-     * This field corresponds to the database table IPAY_CORE_TEST.T_CHECK_EXCEPTION
+     * This field corresponds to the database table T_CHECK_EXCEPTION
      *
      * @MBG Generated Mon Aug 07 19:43:33 CST 2017
      */
@@ -220,7 +220,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ID：null
+     * @return T_CHECK_EXCEPTION.ID：null
      */
     public BigDecimal getID() {
         return ID;
@@ -238,7 +238,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ORDER_NO：null
+     * @return T_CHECK_EXCEPTION.ORDER_NO：null
      */
     public String getORDER_NO() {
         return ORDER_NO;
@@ -256,7 +256,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.REFUND_NO：null
+     * @return T_CHECK_EXCEPTION.REFUND_NO：null
      */
     public String getREFUND_NO() {
         return REFUND_NO;
@@ -274,7 +274,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.BILL_ID：null
+     * @return T_CHECK_EXCEPTION.BILL_ID：null
      */
     public BigDecimal getBILL_ID() {
         return BILL_ID;
@@ -292,7 +292,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_ID：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_ID：null
      */
     public BigDecimal getCHANNEL_ID() {
         return CHANNEL_ID;
@@ -310,7 +310,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.BUSINESS_TYPE：null
+     * @return T_CHECK_EXCEPTION.BUSINESS_TYPE：null
      */
     public String getBUSINESS_TYPE() {
         return BUSINESS_TYPE;
@@ -328,7 +328,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.MERCHANT_ID：null
+     * @return T_CHECK_EXCEPTION.MERCHANT_ID：null
      */
     public BigDecimal getMERCHANT_ID() {
         return MERCHANT_ID;
@@ -346,7 +346,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.SHOP_ID：null
+     * @return T_CHECK_EXCEPTION.SHOP_ID：null
      */
     public BigDecimal getSHOP_ID() {
         return SHOP_ID;
@@ -364,7 +364,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ORG_ID：null
+     * @return T_CHECK_EXCEPTION.ORG_ID：null
      */
     public BigDecimal getORG_ID() {
         return ORG_ID;
@@ -382,7 +382,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.TOP_ORG_ID：null
+     * @return T_CHECK_EXCEPTION.TOP_ORG_ID：null
      */
     public BigDecimal getTOP_ORG_ID() {
         return TOP_ORG_ID;
@@ -400,7 +400,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.PAY_AMOUNT：null
+     * @return T_CHECK_EXCEPTION.PAY_AMOUNT：null
      */
     public BigDecimal getPAY_AMOUNT() {
         return PAY_AMOUNT;
@@ -418,7 +418,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ORDER_TRADE_TIME：null
+     * @return T_CHECK_EXCEPTION.ORDER_TRADE_TIME：null
      */
     public Date getORDER_TRADE_TIME() {
         return ORDER_TRADE_TIME;
@@ -436,7 +436,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ORDER_PAY_TYPE：null
+     * @return T_CHECK_EXCEPTION.ORDER_PAY_TYPE：null
      */
     public String getORDER_PAY_TYPE() {
         return ORDER_PAY_TYPE;
@@ -454,7 +454,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.ORDER_STATUS：null
+     * @return T_CHECK_EXCEPTION.ORDER_STATUS：null
      */
     public String getORDER_STATUS() {
         return ORDER_STATUS;
@@ -472,7 +472,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_ORDER_NO：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_ORDER_NO：null
      */
     public String getCHANNEL_ORDER_NO() {
         return CHANNEL_ORDER_NO;
@@ -490,7 +490,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_AMOUNT：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_AMOUNT：null
      */
     public BigDecimal getCHANNEL_AMOUNT() {
         return CHANNEL_AMOUNT;
@@ -508,7 +508,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_DISCOUNT_AMOUNT：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_DISCOUNT_AMOUNT：null
      */
     public BigDecimal getCHANNEL_DISCOUNT_AMOUNT() {
         return CHANNEL_DISCOUNT_AMOUNT;
@@ -526,7 +526,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_EXPIRE_TIME：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_EXPIRE_TIME：null
      */
     public Date getCHANNEL_EXPIRE_TIME() {
         return CHANNEL_EXPIRE_TIME;
@@ -544,7 +544,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHANNEL_PAY_TYPE：null
+     * @return T_CHECK_EXCEPTION.CHANNEL_PAY_TYPE：null
      */
     public String getCHANNEL_PAY_TYPE() {
         return CHANNEL_PAY_TYPE;
@@ -562,7 +562,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHECK_DATE：null
+     * @return T_CHECK_EXCEPTION.CHECK_DATE：null
      */
     public String getCHECK_DATE() {
         return CHECK_DATE;
@@ -580,7 +580,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CHECK_STATUS：null
+     * @return T_CHECK_EXCEPTION.CHECK_STATUS：null
      */
     public String getCHECK_STATUS() {
         return CHECK_STATUS;
@@ -598,7 +598,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.DEAL_WAY：null
+     * @return T_CHECK_EXCEPTION.DEAL_WAY：null
      */
     public String getDEAL_WAY() {
         return DEAL_WAY;
@@ -616,7 +616,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.DEAL_STATUS：null
+     * @return T_CHECK_EXCEPTION.DEAL_STATUS：null
      */
     public String getDEAL_STATUS() {
         return DEAL_STATUS;
@@ -634,7 +634,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.BELONG_MERCHANT_ID：null
+     * @return T_CHECK_EXCEPTION.BELONG_MERCHANT_ID：null
      */
     public BigDecimal getBELONG_MERCHANT_ID() {
         return BELONG_MERCHANT_ID;
@@ -652,7 +652,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.BELONG_SHOP_ID：null
+     * @return T_CHECK_EXCEPTION.BELONG_SHOP_ID：null
      */
     public BigDecimal getBELONG_SHOP_ID() {
         return BELONG_SHOP_ID;
@@ -670,7 +670,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.BELONG_STAFF_ID：null
+     * @return T_CHECK_EXCEPTION.BELONG_STAFF_ID：null
      */
     public BigDecimal getBELONG_STAFF_ID() {
         return BELONG_STAFF_ID;
@@ -688,7 +688,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CREDENTIALS_PATH：null
+     * @return T_CHECK_EXCEPTION.CREDENTIALS_PATH：null
      */
     public String getCREDENTIALS_PATH() {
         return CREDENTIALS_PATH;
@@ -706,7 +706,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.DEAL_REASON：null
+     * @return T_CHECK_EXCEPTION.DEAL_REASON：null
      */
     public String getDEAL_REASON() {
         return DEAL_REASON;
@@ -724,7 +724,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.DEAL_PERSON_ID：null
+     * @return T_CHECK_EXCEPTION.DEAL_PERSON_ID：null
      */
     public BigDecimal getDEAL_PERSON_ID() {
         return DEAL_PERSON_ID;
@@ -742,7 +742,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.DEAL_TIME：null
+     * @return T_CHECK_EXCEPTION.DEAL_TIME：null
      */
     public Date getDEAL_TIME() {
         return DEAL_TIME;
@@ -760,7 +760,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CREATED_TIME：null
+     * @return T_CHECK_EXCEPTION.CREATED_TIME：null
      */
     public Date getCREATED_TIME() {
         return CREATED_TIME;
@@ -778,7 +778,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.CREATED_ID：null
+     * @return T_CHECK_EXCEPTION.CREATED_ID：null
      */
     public BigDecimal getCREATED_ID() {
         return CREATED_ID;
@@ -796,7 +796,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.UPDATED_TIME：null
+     * @return T_CHECK_EXCEPTION.UPDATED_TIME：null
      */
     public Date getUPDATED_TIME() {
         return UPDATED_TIME;
@@ -814,7 +814,7 @@ public class T_check_exception implements Serializable {
     /**
      * get method 
      *
-     * @return IPAY_CORE_TEST.T_CHECK_EXCEPTION.UPDATED_ID：null
+     * @return T_CHECK_EXCEPTION.UPDATED_ID：null
      */
     public BigDecimal getUPDATED_ID() {
         return UPDATED_ID;

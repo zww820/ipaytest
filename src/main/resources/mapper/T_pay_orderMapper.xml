@@ -13,50 +13,49 @@
     <result column="ORDER_NO" property="ORDER_NO" />
     <result column="TRADE_NO" property="TRADE_NO" />
     <result column="CHANNEL_ID" property="CHANNEL_ID" />
-    <result column="CHANNEL_CODE" jdbcType="VARCHAR" property="CHANNEL_CODE" />
-    <result column="SHOP_ID" jdbcType="DECIMAL" property="SHOP_ID" />
-    <result column="PAY_TYPE_ID" jdbcType="DECIMAL" property="PAY_TYPE_ID" />
-    <result column="STATUS" jdbcType="VARCHAR" property="STATUS" />
-    <result column="PLATFORM_AMOUNT" jdbcType="DECIMAL" property="PLATFORM_AMOUNT" />
-    <result column="MERCHANT_AMOUNT" jdbcType="DECIMAL" property="MERCHANT_AMOUNT" />
-    <result column="CHANNEL_AMOUNT" jdbcType="DECIMAL" property="CHANNEL_AMOUNT" />
-    <result column="DISCOUNT" jdbcType="DECIMAL" property="DISCOUNT" />
-    <result column="PLATFORM_DISCOUNT" jdbcType="DECIMAL" property="PLATFORM_DISCOUNT" />
-    <result column="MERCHANT_DISCOUNT" jdbcType="DECIMAL" property="MERCHANT_DISCOUNT" />
-    <result column="CHANNEL_DISCOUNT" jdbcType="DECIMAL" property="CHANNEL_DISCOUNT" />
-    <result column="GIFT_POINTS" jdbcType="DECIMAL" property="GIFT_POINTS" />
-    <result column="TOTOL_DISCOUNT" jdbcType="DECIMAL" property="TOTOL_DISCOUNT" />
-    <result column="ORG_ID" jdbcType="DECIMAL" property="ORG_ID" />
+    <result column="CHANNEL_CODE" property="CHANNEL_CODE" />
+    <result column="SHOP_ID" property="SHOP_ID" />
+    <result column="PAY_TYPE_ID" property="PAY_TYPE_ID" />
+    <result column="STATUS" property="STATUS" />
+    <result column="PLATFORM_AMOUNT" property="PLATFORM_AMOUNT" />
+    <result column="MERCHANT_AMOUNT" property="MERCHANT_AMOUNT" />
+    <result column="CHANNEL_AMOUNT" property="CHANNEL_AMOUNT" />
+    <result column="DISCOUNT" property="DISCOUNT" />
+    <result column="PLATFORM_DISCOUNT" property="PLATFORM_DISCOUNT" />
+    <result column="MERCHANT_DISCOUNT" property="MERCHANT_DISCOUNT" />
+    <result column="CHANNEL_DISCOUNT" property="CHANNEL_DISCOUNT" />
+    <result column="GIFT_POINTS" property="GIFT_POINTS" />
+    <result column="TOTOL_DISCOUNT"  property="TOTOL_DISCOUNT" />
+    <result column="ORG_ID"  property="ORG_ID" />
     <result column="ORG_IDS" jdbcType="VARCHAR" property="ORG_IDS" />
-    <result column="MERCHANT_ID" jdbcType="DECIMAL" property="MERCHANT_ID" />
-    <result column="STAFF_ID" jdbcType="DECIMAL" property="STAFF_ID" />
+    <result column="MERCHANT_ID"  property="MERCHANT_ID" />
+    <result column="STAFF_ID"  property="STAFF_ID" />
     <result column="CREATED_NAME" jdbcType="VARCHAR" property="CREATED_NAME" />
-    <result column="DEP_ID" jdbcType="DECIMAL" property="DEP_ID" />
+    <result column="DEP_ID"  property="DEP_ID" />
     <result column="SHOP_NAME" jdbcType="VARCHAR" property="SHOP_NAME" />
     <result column="MERCHANT_NAME" jdbcType="VARCHAR" property="MERCHANT_NAME" />
-    <result column="VALIDATE_CODE" jdbcType="DECIMAL" property="VALIDATE_CODE" />
+    <result column="VALIDATE_CODE"  property="VALIDATE_CODE" />
     <result column="MESSAGE" jdbcType="VARCHAR" property="MESSAGE" />
-    <result column="ACTION_LOG_ID" jdbcType="DECIMAL" property="ACTION_LOG_ID" />
-    <result column="CREATED_ID" jdbcType="DECIMAL" property="CREATED_ID" />
-    <result column="CREATED_TIME" jdbcType="DATE" property="CREATED_TIME" />
-    <result column="UPDATED_ID" jdbcType="DECIMAL" property="UPDATED_ID" />
-    <result column="UPDATED_TIME" jdbcType="DATE" property="UPDATED_TIME" />
+    <result column="ACTION_LOG_ID"  property="ACTION_LOG_ID" />
+    <result column="CREATED_ID"  property="CREATED_ID" />
+    <result column="CREATED_TIME" property="CREATED_TIME" />
+    <result column="UPDATED_ID"  property="UPDATED_ID" />
+    <result column="UPDATED_TIME"  property="UPDATED_TIME" />
     <result column="REMARK" jdbcType="VARCHAR" property="REMARK" />
     <result column="LEAVE_MESSAGE" jdbcType="VARCHAR" property="LEAVE_MESSAGE" />
     <result column="TRADE_DATE" jdbcType="VARCHAR" property="TRADE_DATE" />
     <result column="CHECK_STATUS" jdbcType="VARCHAR" property="CHECK_STATUS" />
     <result column="CHECK_DATE" jdbcType="VARCHAR" property="CHECK_DATE" />
-    <result column="CHANNEL_FEE" jdbcType="DECIMAL" property="CHANNEL_FEE" />
     <result column="CLE_SCENE_NO" jdbcType="VARCHAR" property="CLE_SCENE_NO" />
-    <result column="CLE_STATUS" jdbcType="DECIMAL" property="CLE_STATUS" />
-    <result column="MERCHANT_SERVICE_RATE" jdbcType="DECIMAL" property="MERCHANT_SERVICE_RATE" />
-    <result column="MERCHANT_SERVICE_AMOUNT" jdbcType="DECIMAL" property="MERCHANT_SERVICE_AMOUNT" />
-    <result column="CHANNEL_SERVICE_AMOUNT" jdbcType="DECIMAL" property="CHANNEL_SERVICE_AMOUNT" />
-    <result column="PLATFORM_SERVICE_AMOUNT" jdbcType="DECIMAL" property="PLATFORM_SERVICE_AMOUNT" />
-    <result column="PLATFORM_RD_SERVICE_AMOUNT" jdbcType="DECIMAL" property="PLATFORM_RD_SERVICE_AMOUNT" />
-    <result column="STL_AMOUNT" jdbcType="DECIMAL" property="STL_AMOUNT" />
-    <result column="STL_BILL_NO" jdbcType="DECIMAL" property="STL_BILL_NO" />
-    <result column="STL_STATUS" jdbcType="DECIMAL" property="STL_STATUS" />
+    <result column="CLE_STATUS"  property="CLE_STATUS" />
+    <result column="MERCHANT_SERVICE_RATE"  property="MERCHANT_SERVICE_RATE" />
+    <result column="MERCHANT_SERVICE_AMOUNT"  property="MERCHANT_SERVICE_AMOUNT" />
+    <result column="CHANNEL_SERVICE_AMOUNT"  property="CHANNEL_SERVICE_AMOUNT" />
+    <result column="PLATFORM_SERVICE_AMOUNT"  property="PLATFORM_SERVICE_AMOUNT" />
+    <result column="PLATFORM_RD_SERVICE_AMOUNT"  property="PLATFORM_RD_SERVICE_AMOUNT" />
+    <result column="STL_AMOUNT"  property="STL_AMOUNT" />
+    <result column="STL_BILL_NO"  property="STL_BILL_NO" />
+    <result column="STL_STATUS"  property="STL_STATUS" />
   </resultMap>
   <sql id="Base_Column_List">
     <!--
@@ -68,7 +67,7 @@
     PLATFORM_DISCOUNT, MERCHANT_DISCOUNT, CHANNEL_DISCOUNT, GIFT_POINTS, TOTOL_DISCOUNT, 
     ORG_ID, ORG_IDS, MERCHANT_ID, STAFF_ID, CREATED_NAME, DEP_ID, SHOP_NAME, MERCHANT_NAME, 
     VALIDATE_CODE, MESSAGE, ACTION_LOG_ID, CREATED_ID, CREATED_TIME, UPDATED_ID, UPDATED_TIME, 
-    REMARK, LEAVE_MESSAGE, TRADE_DATE, CHECK_STATUS, CHECK_DATE, CHANNEL_FEE, CLE_SCENE_NO, 
+    REMARK, LEAVE_MESSAGE, TRADE_DATE, CHECK_STATUS, CHECK_DATE,  CLE_SCENE_NO, 
     CLE_STATUS, MERCHANT_SERVICE_RATE, MERCHANT_SERVICE_AMOUNT, CHANNEL_SERVICE_AMOUNT, 
     PLATFORM_SERVICE_AMOUNT, PLATFORM_RD_SERVICE_AMOUNT, STL_AMOUNT, STL_BILL_NO, STL_STATUS
   </sql>
@@ -79,16 +78,22 @@
     -->
     select 
     <include refid="Base_Column_List" />
-    from IPAY_CORE_TEST.T_PAY_ORDER
-    where ID = #{ID,jdbcType=DECIMAL}
+    from T_PAY_ORDER
+    where ID = #{ID}
+  </select>
+  <select id="selectjineBycheckdateandorderno" parameterType="java.lang.String" resultMap="BaseResultMap">
+  select
+  <include refid="Base_Column_List" />
+  from T_PAY_ORDER
+  where order_no=#{ORDER_NO}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.math.BigDecimal">
     <!--
       @MBG Generated
       This element is automatically generated by MyBatis Generator,Do not modify ! Generated on Thu Aug 24 09:26:50 CST 2017.
     -->
-    delete from IPAY_CORE_TEST.T_PAY_ORDER
-    where ID = #{ID,jdbcType=DECIMAL}
+    delete from T_PAY_ORDER
+    where ID = #{ID}
   </delete>
   <insert id="insert" parameterType="org.ipay.model.T_pay_order">
   <selectKey resultType="java.lang.Long" keyProperty="ID" order="BEFORE"> 
@@ -98,7 +103,7 @@
       @MBG Generated
       This element is automatically generated by MyBatis Generator,Do not modify ! Generated on Thu Aug 24 09:26:50 CST 2017.
     -->
-    insert into IPAY_CORE_TEST.T_PAY_ORDER (ID, CHANNEL_PAY_TIME, TOP_ORG_ID, 
+    insert into T_PAY_ORDER (ID, CHANNEL_PAY_TIME, TOP_ORG_ID,
       OPEN_ID, ORDER_NO, TRADE_NO, 
       CHANNEL_ID, CHANNEL_CODE, SHOP_ID, 
       PAY_TYPE_ID, STATUS, PLATFORM_AMOUNT, 
@@ -111,29 +116,29 @@
       ACTION_LOG_ID, CREATED_ID, CREATED_TIME, 
       UPDATED_ID, UPDATED_TIME, REMARK, 
       LEAVE_MESSAGE, TRADE_DATE, CHECK_STATUS, 
-      CHECK_DATE, CHANNEL_FEE, CLE_SCENE_NO, 
+      CHECK_DATE,  CLE_SCENE_NO, 
       CLE_STATUS, MERCHANT_SERVICE_RATE, MERCHANT_SERVICE_AMOUNT, 
       CHANNEL_SERVICE_AMOUNT, PLATFORM_SERVICE_AMOUNT, 
       PLATFORM_RD_SERVICE_AMOUNT, STL_AMOUNT, 
       STL_BILL_NO, STL_STATUS)
-    values (#{ID}, #{CHANNEL_PAY_TIME,jdbcType=DATE}, #{TOP_ORG_ID,jdbcType=DECIMAL}, 
-      #{OPEN_ID,jdbcType=VARCHAR}, #{ORDER_NO,jdbcType=VARCHAR}, #{TRADE_NO,jdbcType=VARCHAR}, 
-      #{CHANNEL_ID,jdbcType=DECIMAL}, #{CHANNEL_CODE,jdbcType=VARCHAR}, #{SHOP_ID,jdbcType=DECIMAL}, 
-      #{PAY_TYPE_ID,jdbcType=DECIMAL}, #{STATUS,jdbcType=VARCHAR}, #{PLATFORM_AMOUNT,jdbcType=DECIMAL}, 
-      #{MERCHANT_AMOUNT,jdbcType=DECIMAL}, #{CHANNEL_AMOUNT,jdbcType=DECIMAL}, #{DISCOUNT,jdbcType=DECIMAL}, 
-      #{PLATFORM_DISCOUNT,jdbcType=DECIMAL}, #{MERCHANT_DISCOUNT,jdbcType=DECIMAL}, #{CHANNEL_DISCOUNT,jdbcType=DECIMAL}, 
-      #{GIFT_POINTS,jdbcType=DECIMAL}, #{TOTOL_DISCOUNT,jdbcType=DECIMAL}, #{ORG_ID,jdbcType=DECIMAL}, 
-      #{ORG_IDS,jdbcType=VARCHAR}, #{MERCHANT_ID,jdbcType=DECIMAL}, #{STAFF_ID,jdbcType=DECIMAL}, 
-      #{CREATED_NAME,jdbcType=VARCHAR}, #{DEP_ID,jdbcType=DECIMAL}, #{SHOP_NAME,jdbcType=VARCHAR}, 
-      #{MERCHANT_NAME,jdbcType=VARCHAR}, #{VALIDATE_CODE,jdbcType=DECIMAL}, #{MESSAGE,jdbcType=VARCHAR}, 
-      #{ACTION_LOG_ID,jdbcType=DECIMAL}, #{CREATED_ID,jdbcType=DECIMAL}, #{CREATED_TIME,jdbcType=DATE}, 
-      #{UPDATED_ID,jdbcType=DECIMAL}, #{UPDATED_TIME,jdbcType=DATE}, #{REMARK,jdbcType=VARCHAR}, 
-      #{LEAVE_MESSAGE,jdbcType=VARCHAR}, #{TRADE_DATE,jdbcType=VARCHAR}, #{CHECK_STATUS,jdbcType=VARCHAR}, 
-      #{CHECK_DATE,jdbcType=VARCHAR}, #{CHANNEL_FEE,jdbcType=DECIMAL}, #{CLE_SCENE_NO,jdbcType=VARCHAR}, 
-      #{CLE_STATUS,jdbcType=DECIMAL}, #{MERCHANT_SERVICE_RATE,jdbcType=DECIMAL}, #{MERCHANT_SERVICE_AMOUNT,jdbcType=DECIMAL}, 
-      #{CHANNEL_SERVICE_AMOUNT,jdbcType=DECIMAL}, #{PLATFORM_SERVICE_AMOUNT,jdbcType=DECIMAL}, 
-      #{PLATFORM_RD_SERVICE_AMOUNT,jdbcType=DECIMAL}, #{STL_AMOUNT,jdbcType=DECIMAL}, 
-      #{STL_BILL_NO,jdbcType=DECIMAL}, #{STL_STATUS,jdbcType=DECIMAL})
+    values (#{ID}, #{CHANNEL_PAY_TIME}, #{TOP_ORG_ID}, 
+      #{OPEN_ID}, #{ORDER_NO}, #{TRADE_NO}, 
+      #{CHANNEL_ID}, #{CHANNEL_CODE}, #{SHOP_ID}, 
+      #{PAY_TYPE_ID}, #{STATUS}, #{PLATFORM_AMOUNT}, 
+      #{MERCHANT_AMOUNT}, #{CHANNEL_AMOUNT}, #{DISCOUNT}, 
+      #{PLATFORM_DISCOUNT}, #{MERCHANT_DISCOUNT}, #{CHANNEL_DISCOUNT}, 
+      #{GIFT_POINTS}, #{TOTOL_DISCOUNT}, #{ORG_ID}, 
+      #{ORG_IDS}, #{MERCHANT_ID}, #{STAFF_ID}, 
+      #{CREATED_NAME}, #{DEP_ID}, #{SHOP_NAME}, 
+      #{MERCHANT_NAME}, #{VALIDATE_CODE}, #{MESSAGE}, 
+      #{ACTION_LOG_ID}, #{CREATED_ID}, #{CREATED_TIME}, 
+      #{UPDATED_ID}, #{UPDATED_TIME}, #{REMARK}, 
+      #{LEAVE_MESSAGE}, #{TRADE_DATE}, #{CHECK_STATUS}, 
+      #{CHECK_DATE}, #{CLE_SCENE_NO}, 
+      #{CLE_STATUS}, #{MERCHANT_SERVICE_RATE}, #{MERCHANT_SERVICE_AMOUNT}, 
+      #{CHANNEL_SERVICE_AMOUNT}, #{PLATFORM_SERVICE_AMOUNT}, 
+      #{PLATFORM_RD_SERVICE_AMOUNT}, #{STL_AMOUNT}, 
+      #{STL_BILL_NO}, #{STL_STATUS})
   </insert>
   <insert id="insertSelective" parameterType="org.ipay.model.T_pay_order">
   <selectKey resultType="java.lang.Long" keyProperty="ID" order="BEFORE"> 
@@ -143,7 +148,7 @@
       @MBG Generated
       This element is automatically generated by MyBatis Generator,Do not modify ! Generated on Thu Aug 24 09:26:50 CST 2017.
     -->
-    insert into IPAY_CORE_TEST.T_PAY_ORDER
+    insert into T_PAY_ORDER
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="ID != null">
         ID,
@@ -265,9 +270,6 @@
       <if test="CHECK_DATE != null">
         CHECK_DATE,
       </if>
-      <if test="CHANNEL_FEE != null">
-        CHANNEL_FEE,
-      </if>
       <if test="CLE_SCENE_NO != null">
         CLE_SCENE_NO,
       </if>
@@ -307,151 +309,148 @@
         #{CHANNEL_PAY_TIME},
       </if>
       <if test="TOP_ORG_ID != null">
-        #{TOP_ORG_ID,jdbcType=DECIMAL},
+        #{TOP_ORG_ID},
       </if>
       <if test="OPEN_ID != null">
-        #{OPEN_ID,jdbcType=VARCHAR},
+        #{OPEN_ID},
       </if>
       <if test="ORDER_NO != null">
-        #{ORDER_NO,jdbcType=VARCHAR},
+        #{ORDER_NO},
       </if>
       <if test="TRADE_NO != null">
-        #{TRADE_NO,jdbcType=VARCHAR},
+        #{TRADE_NO},
       </if>
       <if test="CHANNEL_ID != null">
-        #{CHANNEL_ID,jdbcType=DECIMAL},
+        #{CHANNEL_ID},
       </if>
       <if test="CHANNEL_CODE != null">
-        #{CHANNEL_CODE,jdbcType=VARCHAR},
+        #{CHANNEL_CODE},
       </if>
       <if test="SHOP_ID != null">
-        #{SHOP_ID,jdbcType=DECIMAL},
+        #{SHOP_ID},
       </if>
       <if test="PAY_TYPE_ID != null">
-        #{PAY_TYPE_ID,jdbcType=DECIMAL},
+        #{PAY_TYPE_ID},
       </if>
       <if test="STATUS != null">
-        #{STATUS,jdbcType=VARCHAR},
+        #{STATUS},
       </if>
       <if test="PLATFORM_AMOUNT != null">
-        #{PLATFORM_AMOUNT,jdbcType=DECIMAL},
+        #{PLATFORM_AMOUNT},
       </if>
       <if test="MERCHANT_AMOUNT != null">
-        #{MERCHANT_AMOUNT,jdbcType=DECIMAL},
+        #{MERCHANT_AMOUNT},
       </if>
       <if test="CHANNEL_AMOUNT != null">
-        #{CHANNEL_AMOUNT,jdbcType=DECIMAL},
+        #{CHANNEL_AMOUNT},
       </if>
       <if test="DISCOUNT != null">
-        #{DISCOUNT,jdbcType=DECIMAL},
+        #{DISCOUNT},
       </if>
       <if test="PLATFORM_DISCOUNT != null">
-        #{PLATFORM_DISCOUNT,jdbcType=DECIMAL},
+        #{PLATFORM_DISCOUNT},
       </if>
       <if test="MERCHANT_DISCOUNT != null">
-        #{MERCHANT_DISCOUNT,jdbcType=DECIMAL},
+        #{MERCHANT_DISCOUNT},
       </if>
       <if test="CHANNEL_DISCOUNT != null">
-        #{CHANNEL_DISCOUNT,jdbcType=DECIMAL},
+        #{CHANNEL_DISCOUNT},
       </if>
       <if test="GIFT_POINTS != null">
-        #{GIFT_POINTS,jdbcType=DECIMAL},
+        #{GIFT_POINTS},
       </if>
       <if test="TOTOL_DISCOUNT != null">
-        #{TOTOL_DISCOUNT,jdbcType=DECIMAL},
+        #{TOTOL_DISCOUNT},
       </if>
       <if test="ORG_ID != null">
-        #{ORG_ID,jdbcType=DECIMAL},
+        #{ORG_ID},
       </if>
       <if test="ORG_IDS != null">
-        #{ORG_IDS,jdbcType=VARCHAR},
+        #{ORG_IDS},
       </if>
       <if test="MERCHANT_ID != null">
-        #{MERCHANT_ID,jdbcType=DECIMAL},
+        #{MERCHANT_ID},
       </if>
       <if test="STAFF_ID != null">
-        #{STAFF_ID,jdbcType=DECIMAL},
+        #{STAFF_ID},
       </if>
       <if test="CREATED_NAME != null">
-        #{CREATED_NAME,jdbcType=VARCHAR},
+        #{CREATED_NAME},
       </if>
       <if test="DEP_ID != null">
-        #{DEP_ID,jdbcType=DECIMAL},
+        #{DEP_ID},
       </if>
       <if test="SHOP_NAME != null">
-        #{SHOP_NAME,jdbcType=VARCHAR},
+        #{SHOP_NAME},
       </if>
       <if test="MERCHANT_NAME != null">
-        #{MERCHANT_NAME,jdbcType=VARCHAR},
+        #{MERCHANT_NAME},
       </if>
       <if test="VALIDATE_CODE != null">
-        #{VALIDATE_CODE,jdbcType=DECIMAL},
+        #{VALIDATE_CODE},
       </if>
       <if test="MESSAGE != null">
-        #{MESSAGE,jdbcType=VARCHAR},
+        #{MESSAGE},
       </if>
       <if test="ACTION_LOG_ID != null">
-        #{ACTION_LOG_ID,jdbcType=DECIMAL},
+        #{ACTION_LOG_ID},
       </if>
       <if test="CREATED_ID != null">
-        #{CREATED_ID,jdbcType=DECIMAL},
+        #{CREATED_ID},
       </if>
       <if test="CREATED_TIME != null">
-        #{CREATED_TIME,jdbcType=DATE},
+        #{CREATED_TIME},
       </if>
       <if test="UPDATED_ID != null">
-        #{UPDATED_ID,jdbcType=DECIMAL},
+        #{UPDATED_ID},
       </if>
       <if test="UPDATED_TIME != null">
-        #{UPDATED_TIME,jdbcType=DATE},
+        #{UPDATED_TIME},
       </if>
       <if test="REMARK != null">
-        #{REMARK,jdbcType=VARCHAR},
+        #{REMARK},
       </if>
       <if test="LEAVE_MESSAGE != null">
-        #{LEAVE_MESSAGE,jdbcType=VARCHAR},
+        #{LEAVE_MESSAGE},
       </if>
       <if test="TRADE_DATE != null">
-        #{TRADE_DATE,jdbcType=VARCHAR},
+        #{TRADE_DATE},
       </if>
       <if test="CHECK_STATUS != null">
-        #{CHECK_STATUS,jdbcType=VARCHAR},
+        #{CHECK_STATUS},
       </if>
       <if test="CHECK_DATE != null">
-        #{CHECK_DATE,jdbcType=VARCHAR},
-      </if>
-      <if test="CHANNEL_FEE != null">
-        #{CHANNEL_FEE,jdbcType=DECIMAL},
+        #{CHECK_DATE},
       </if>
       <if test="CLE_SCENE_NO != null">
-        #{CLE_SCENE_NO,jdbcType=VARCHAR},
+        #{CLE_SCENE_NO},
       </if>
       <if test="CLE_STATUS != null">
-        #{CLE_STATUS,jdbcType=DECIMAL},
+        #{CLE_STATUS},
       </if>
       <if test="MERCHANT_SERVICE_RATE != null">
-        #{MERCHANT_SERVICE_RATE,jdbcType=DECIMAL},
+        #{MERCHANT_SERVICE_RATE},
       </if>
       <if test="MERCHANT_SERVICE_AMOUNT != null">
-        #{MERCHANT_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        #{MERCHANT_SERVICE_AMOUNT},
       </if>
       <if test="CHANNEL_SERVICE_AMOUNT != null">
-        #{CHANNEL_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        #{CHANNEL_SERVICE_AMOUNT},
       </if>
       <if test="PLATFORM_SERVICE_AMOUNT != null">
-        #{PLATFORM_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        #{PLATFORM_SERVICE_AMOUNT},
       </if>
       <if test="PLATFORM_RD_SERVICE_AMOUNT != null">
-        #{PLATFORM_RD_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        #{PLATFORM_RD_SERVICE_AMOUNT},
       </if>
       <if test="STL_AMOUNT != null">
-        #{STL_AMOUNT,jdbcType=DECIMAL},
+        #{STL_AMOUNT},
       </if>
       <if test="STL_BILL_NO != null">
-        #{STL_BILL_NO,jdbcType=DECIMAL},
+        #{STL_BILL_NO},
       </if>
       <if test="STL_STATUS != null">
-        #{STL_STATUS,jdbcType=DECIMAL},
+        #{STL_STATUS},
       </if>
     </trim>
   </insert>
@@ -460,218 +459,218 @@
       @MBG Generated
       This element is automatically generated by MyBatis Generator,Do not modify ! Generated on Thu Aug 24 09:26:50 CST 2017.
     -->
-    update IPAY_CORE_TEST.T_PAY_ORDER
+    update T_PAY_ORDER
     <set>
       <if test="CHANNEL_PAY_TIME != null">
-        CHANNEL_PAY_TIME = #{CHANNEL_PAY_TIME,jdbcType=DATE},
+        CHANNEL_PAY_TIME = #{CHANNEL_PAY_TIME},
       </if>
       <if test="TOP_ORG_ID != null">
-        TOP_ORG_ID = #{TOP_ORG_ID,jdbcType=DECIMAL},
+        TOP_ORG_ID = #{TOP_ORG_ID},
       </if>
       <if test="OPEN_ID != null">
-        OPEN_ID = #{OPEN_ID,jdbcType=VARCHAR},
+        OPEN_ID = #{OPEN_ID},
       </if>
       <if test="ORDER_NO != null">
-        ORDER_NO = #{ORDER_NO,jdbcType=VARCHAR},
+        ORDER_NO = #{ORDER_NO},
       </if>
       <if test="TRADE_NO != null">
-        TRADE_NO = #{TRADE_NO,jdbcType=VARCHAR},
+        TRADE_NO = #{TRADE_NO},
       </if>
       <if test="CHANNEL_ID != null">
-        CHANNEL_ID = #{CHANNEL_ID,jdbcType=DECIMAL},
+        CHANNEL_ID = #{CHANNEL_ID},
       </if>
       <if test="CHANNEL_CODE != null">
-        CHANNEL_CODE = #{CHANNEL_CODE,jdbcType=VARCHAR},
+        CHANNEL_CODE = #{CHANNEL_CODE},
       </if>
       <if test="SHOP_ID != null">
-        SHOP_ID = #{SHOP_ID,jdbcType=DECIMAL},
+        SHOP_ID = #{SHOP_ID},
       </if>
       <if test="PAY_TYPE_ID != null">
-        PAY_TYPE_ID = #{PAY_TYPE_ID,jdbcType=DECIMAL},
+        PAY_TYPE_ID = #{PAY_TYPE_ID},
       </if>
       <if test="STATUS != null">
-        STATUS = #{STATUS,jdbcType=VARCHAR},
+        STATUS = #{STATUS},
       </if>
       <if test="PLATFORM_AMOUNT != null">
-        PLATFORM_AMOUNT = #{PLATFORM_AMOUNT,jdbcType=DECIMAL},
+        PLATFORM_AMOUNT = #{PLATFORM_AMOUNT},
       </if>
       <if test="MERCHANT_AMOUNT != null">
-        MERCHANT_AMOUNT = #{MERCHANT_AMOUNT,jdbcType=DECIMAL},
+        MERCHANT_AMOUNT = #{MERCHANT_AMOUNT},
       </if>
       <if test="CHANNEL_AMOUNT != null">
-        CHANNEL_AMOUNT = #{CHANNEL_AMOUNT,jdbcType=DECIMAL},
+        CHANNEL_AMOUNT = #{CHANNEL_AMOUNT},
       </if>
       <if test="DISCOUNT != null">
-        DISCOUNT = #{DISCOUNT,jdbcType=DECIMAL},
+        DISCOUNT = #{DISCOUNT},
       </if>
       <if test="PLATFORM_DISCOUNT != null">
-        PLATFORM_DISCOUNT = #{PLATFORM_DISCOUNT,jdbcType=DECIMAL},
+        PLATFORM_DISCOUNT = #{PLATFORM_DISCOUNT},
       </if>
       <if test="MERCHANT_DISCOUNT != null">
-        MERCHANT_DISCOUNT = #{MERCHANT_DISCOUNT,jdbcType=DECIMAL},
+        MERCHANT_DISCOUNT = #{MERCHANT_DISCOUNT},
       </if>
       <if test="CHANNEL_DISCOUNT != null">
-        CHANNEL_DISCOUNT = #{CHANNEL_DISCOUNT,jdbcType=DECIMAL},
+        CHANNEL_DISCOUNT = #{CHANNEL_DISCOUNT},
       </if>
       <if test="GIFT_POINTS != null">
-        GIFT_POINTS = #{GIFT_POINTS,jdbcType=DECIMAL},
+        GIFT_POINTS = #{GIFT_POINTS},
       </if>
       <if test="TOTOL_DISCOUNT != null">
-        TOTOL_DISCOUNT = #{TOTOL_DISCOUNT,jdbcType=DECIMAL},
+        TOTOL_DISCOUNT = #{TOTOL_DISCOUNT},
       </if>
       <if test="ORG_ID != null">
-        ORG_ID = #{ORG_ID,jdbcType=DECIMAL},
+        ORG_ID = #{ORG_ID},
       </if>
       <if test="ORG_IDS != null">
-        ORG_IDS = #{ORG_IDS,jdbcType=VARCHAR},
+        ORG_IDS = #{ORG_IDS},
       </if>
       <if test="MERCHANT_ID != null">
-        MERCHANT_ID = #{MERCHANT_ID,jdbcType=DECIMAL},
+        MERCHANT_ID = #{MERCHANT_ID},
       </if>
       <if test="STAFF_ID != null">
-        STAFF_ID = #{STAFF_ID,jdbcType=DECIMAL},
+        STAFF_ID = #{STAFF_ID},
       </if>
       <if test="CREATED_NAME != null">
-        CREATED_NAME = #{CREATED_NAME,jdbcType=VARCHAR},
+        CREATED_NAME = #{CREATED_NAME},
       </if>
       <if test="DEP_ID != null">
-        DEP_ID = #{DEP_ID,jdbcType=DECIMAL},
+        DEP_ID = #{DEP_ID},
       </if>
       <if test="SHOP_NAME != null">
-        SHOP_NAME = #{SHOP_NAME,jdbcType=VARCHAR},
+        SHOP_NAME = #{SHOP_NAME},
       </if>
       <if test="MERCHANT_NAME != null">
-        MERCHANT_NAME = #{MERCHANT_NAME,jdbcType=VARCHAR},
+        MERCHANT_NAME = #{MERCHANT_NAME},
       </if>
       <if test="VALIDATE_CODE != null">
-        VALIDATE_CODE = #{VALIDATE_CODE,jdbcType=DECIMAL},
+        VALIDATE_CODE = #{VALIDATE_CODE},
       </if>
       <if test="MESSAGE != null">
-        MESSAGE = #{MESSAGE,jdbcType=VARCHAR},
+        MESSAGE = #{MESSAGE},
       </if>
       <if test="ACTION_LOG_ID != null">
-        ACTION_LOG_ID = #{ACTION_LOG_ID,jdbcType=DECIMAL},
+        ACTION_LOG_ID = #{ACTION_LOG_ID},
       </if>
       <if test="CREATED_ID != null">
-        CREATED_ID = #{CREATED_ID,jdbcType=DECIMAL},
+        CREATED_ID = #{CREATED_ID},
       </if>
       <if test="CREATED_TIME != null">
-        CREATED_TIME = #{CREATED_TIME,jdbcType=DATE},
+        CREATED_TIME = #{CREATED_TIME},
       </if>
       <if test="UPDATED_ID != null">
-        UPDATED_ID = #{UPDATED_ID,jdbcType=DECIMAL},
+        UPDATED_ID = #{UPDATED_ID},
       </if>
       <if test="UPDATED_TIME != null">
-        UPDATED_TIME = #{UPDATED_TIME,jdbcType=DATE},
+        UPDATED_TIME = #{UPDATED_TIME},
       </if>
       <if test="REMARK != null">
-        REMARK = #{REMARK,jdbcType=VARCHAR},
+        REMARK = #{REMARK},
       </if>
       <if test="LEAVE_MESSAGE != null">
-        LEAVE_MESSAGE = #{LEAVE_MESSAGE,jdbcType=VARCHAR},
+        LEAVE_MESSAGE = #{LEAVE_MESSAGE},
       </if>
       <if test="TRADE_DATE != null">
-        TRADE_DATE = #{TRADE_DATE,jdbcType=VARCHAR},
+        TRADE_DATE = #{TRADE_DATE},
       </if>
       <if test="CHECK_STATUS != null">
-        CHECK_STATUS = #{CHECK_STATUS,jdbcType=VARCHAR},
+        CHECK_STATUS = #{CHECK_STATUS},
       </if>
       <if test="CHECK_DATE != null">
-        CHECK_DATE = #{CHECK_DATE,jdbcType=VARCHAR},
-      </if>
-      <if test="CHANNEL_FEE != null">
-        CHANNEL_FEE = #{CHANNEL_FEE,jdbcType=DECIMAL},
+        CHECK_DATE = #{CHECK_DATE},
       </if>
       <if test="CLE_SCENE_NO != null">
-        CLE_SCENE_NO = #{CLE_SCENE_NO,jdbcType=VARCHAR},
+        CLE_SCENE_NO = #{CLE_SCENE_NO},
       </if>
       <if test="CLE_STATUS != null">
-        CLE_STATUS = #{CLE_STATUS,jdbcType=DECIMAL},
+        CLE_STATUS = #{CLE_STATUS},
       </if>
       <if test="MERCHANT_SERVICE_RATE != null">
-        MERCHANT_SERVICE_RATE = #{MERCHANT_SERVICE_RATE,jdbcType=DECIMAL},
+        MERCHANT_SERVICE_RATE = #{MERCHANT_SERVICE_RATE},
       </if>
       <if test="MERCHANT_SERVICE_AMOUNT != null">
-        MERCHANT_SERVICE_AMOUNT = #{MERCHANT_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        MERCHANT_SERVICE_AMOUNT = #{MERCHANT_SERVICE_AMOUNT},
       </if>
       <if test="CHANNEL_SERVICE_AMOUNT != null">
-        CHANNEL_SERVICE_AMOUNT = #{CHANNEL_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        CHANNEL_SERVICE_AMOUNT = #{CHANNEL_SERVICE_AMOUNT},
       </if>
       <if test="PLATFORM_SERVICE_AMOUNT != null">
-        PLATFORM_SERVICE_AMOUNT = #{PLATFORM_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        PLATFORM_SERVICE_AMOUNT = #{PLATFORM_SERVICE_AMOUNT},
       </if>
       <if test="PLATFORM_RD_SERVICE_AMOUNT != null">
-        PLATFORM_RD_SERVICE_AMOUNT = #{PLATFORM_RD_SERVICE_AMOUNT,jdbcType=DECIMAL},
+        PLATFORM_RD_SERVICE_AMOUNT = #{PLATFORM_RD_SERVICE_AMOUNT},
       </if>
       <if test="STL_AMOUNT != null">
-        STL_AMOUNT = #{STL_AMOUNT,jdbcType=DECIMAL},
+        STL_AMOUNT = #{STL_AMOUNT},
       </if>
       <if test="STL_BILL_NO != null">
-        STL_BILL_NO = #{STL_BILL_NO,jdbcType=DECIMAL},
+        STL_BILL_NO = #{STL_BILL_NO},
       </if>
       <if test="STL_STATUS != null">
-        STL_STATUS = #{STL_STATUS,jdbcType=DECIMAL},
+        STL_STATUS = #{STL_STATUS},
       </if>
     </set>
-    where ID = #{ID,jdbcType=DECIMAL}
+    where ID = #{ID}
+  </update>
+  <update id="updatestatusByorderno" parameterType="java.lang.String">
+    update T_PAY_ORDER t set t.STATUS=#{arg0}
+    where t.ORDER_NO=#{arg1}
   </update>
   <update id="updateByPrimaryKey" parameterType="org.ipay.model.T_pay_order">
     <!--
       @MBG Generated
       This element is automatically generated by MyBatis Generator,Do not modify ! Generated on Thu Aug 24 09:26:50 CST 2017.
     -->
-    update IPAY_CORE_TEST.T_PAY_ORDER
-    set CHANNEL_PAY_TIME = #{CHANNEL_PAY_TIME,jdbcType=DATE},
-      TOP_ORG_ID = #{TOP_ORG_ID,jdbcType=DECIMAL},
-      OPEN_ID = #{OPEN_ID,jdbcType=VARCHAR},
-      ORDER_NO = #{ORDER_NO,jdbcType=VARCHAR},
-      TRADE_NO = #{TRADE_NO,jdbcType=VARCHAR},
-      CHANNEL_ID = #{CHANNEL_ID,jdbcType=DECIMAL},
-      CHANNEL_CODE = #{CHANNEL_CODE,jdbcType=VARCHAR},
-      SHOP_ID = #{SHOP_ID,jdbcType=DECIMAL},
-      PAY_TYPE_ID = #{PAY_TYPE_ID,jdbcType=DECIMAL},
-      STATUS = #{STATUS,jdbcType=VARCHAR},
-      PLATFORM_AMOUNT = #{PLATFORM_AMOUNT,jdbcType=DECIMAL},
-      MERCHANT_AMOUNT = #{MERCHANT_AMOUNT,jdbcType=DECIMAL},
-      CHANNEL_AMOUNT = #{CHANNEL_AMOUNT,jdbcType=DECIMAL},
-      DISCOUNT = #{DISCOUNT,jdbcType=DECIMAL},
-      PLATFORM_DISCOUNT = #{PLATFORM_DISCOUNT,jdbcType=DECIMAL},
-      MERCHANT_DISCOUNT = #{MERCHANT_DISCOUNT,jdbcType=DECIMAL},
-      CHANNEL_DISCOUNT = #{CHANNEL_DISCOUNT,jdbcType=DECIMAL},
-      GIFT_POINTS = #{GIFT_POINTS,jdbcType=DECIMAL},
-      TOTOL_DISCOUNT = #{TOTOL_DISCOUNT,jdbcType=DECIMAL},
-      ORG_ID = #{ORG_ID,jdbcType=DECIMAL},
-      ORG_IDS = #{ORG_IDS,jdbcType=VARCHAR},
-      MERCHANT_ID = #{MERCHANT_ID,jdbcType=DECIMAL},
-      STAFF_ID = #{STAFF_ID,jdbcType=DECIMAL},
-      CREATED_NAME = #{CREATED_NAME,jdbcType=VARCHAR},
-      DEP_ID = #{DEP_ID,jdbcType=DECIMAL},
-      SHOP_NAME = #{SHOP_NAME,jdbcType=VARCHAR},
-      MERCHANT_NAME = #{MERCHANT_NAME,jdbcType=VARCHAR},
-      VALIDATE_CODE = #{VALIDATE_CODE,jdbcType=DECIMAL},
-      MESSAGE = #{MESSAGE,jdbcType=VARCHAR},
-      ACTION_LOG_ID = #{ACTION_LOG_ID,jdbcType=DECIMAL},
-      CREATED_ID = #{CREATED_ID,jdbcType=DECIMAL},
-      CREATED_TIME = #{CREATED_TIME,jdbcType=DATE},
-      UPDATED_ID = #{UPDATED_ID,jdbcType=DECIMAL},
-      UPDATED_TIME = #{UPDATED_TIME,jdbcType=DATE},
-      REMARK = #{REMARK,jdbcType=VARCHAR},
-      LEAVE_MESSAGE = #{LEAVE_MESSAGE,jdbcType=VARCHAR},
-      TRADE_DATE = #{TRADE_DATE,jdbcType=VARCHAR},
-      CHECK_STATUS = #{CHECK_STATUS,jdbcType=VARCHAR},
-      CHECK_DATE = #{CHECK_DATE,jdbcType=VARCHAR},
-      CHANNEL_FEE = #{CHANNEL_FEE,jdbcType=DECIMAL},
-      CLE_SCENE_NO = #{CLE_SCENE_NO,jdbcType=VARCHAR},
-      CLE_STATUS = #{CLE_STATUS,jdbcType=DECIMAL},
-      MERCHANT_SERVICE_RATE = #{MERCHANT_SERVICE_RATE,jdbcType=DECIMAL},
-      MERCHANT_SERVICE_AMOUNT = #{MERCHANT_SERVICE_AMOUNT,jdbcType=DECIMAL},
-      CHANNEL_SERVICE_AMOUNT = #{CHANNEL_SERVICE_AMOUNT,jdbcType=DECIMAL},
-      PLATFORM_SERVICE_AMOUNT = #{PLATFORM_SERVICE_AMOUNT,jdbcType=DECIMAL},
-      PLATFORM_RD_SERVICE_AMOUNT = #{PLATFORM_RD_SERVICE_AMOUNT,jdbcType=DECIMAL},
-      STL_AMOUNT = #{STL_AMOUNT,jdbcType=DECIMAL},
-      STL_BILL_NO = #{STL_BILL_NO,jdbcType=DECIMAL},
-      STL_STATUS = #{STL_STATUS,jdbcType=DECIMAL}
-    where ID = #{ID,jdbcType=DECIMAL}
+    update T_PAY_ORDER
+    set CHANNEL_PAY_TIME = #{CHANNEL_PAY_TIME},
+      TOP_ORG_ID = #{TOP_ORG_ID},
+      OPEN_ID = #{OPEN_ID},
+      ORDER_NO = #{ORDER_NO},
+      TRADE_NO = #{TRADE_NO},
+      CHANNEL_ID = #{CHANNEL_ID},
+      CHANNEL_CODE = #{CHANNEL_CODE},
+      SHOP_ID = #{SHOP_ID},
+      PAY_TYPE_ID = #{PAY_TYPE_ID},
+      STATUS = #{STATUS},
+      PLATFORM_AMOUNT = #{PLATFORM_AMOUNT},
+      MERCHANT_AMOUNT = #{MERCHANT_AMOUNT},
+      CHANNEL_AMOUNT = #{CHANNEL_AMOUNT},
+      DISCOUNT = #{DISCOUNT},
+      PLATFORM_DISCOUNT = #{PLATFORM_DISCOUNT},
+      MERCHANT_DISCOUNT = #{MERCHANT_DISCOUNT},
+      CHANNEL_DISCOUNT = #{CHANNEL_DISCOUNT},
+      GIFT_POINTS = #{GIFT_POINTS},
+      TOTOL_DISCOUNT = #{TOTOL_DISCOUNT},
+      ORG_ID = #{ORG_ID},
+      ORG_IDS = #{ORG_IDS},
+      MERCHANT_ID = #{MERCHANT_ID},
+      STAFF_ID = #{STAFF_ID},
+      CREATED_NAME = #{CREATED_NAME},
+      DEP_ID = #{DEP_ID},
+      SHOP_NAME = #{SHOP_NAME},
+      MERCHANT_NAME = #{MERCHANT_NAME},
+      VALIDATE_CODE = #{VALIDATE_CODE},
+      MESSAGE = #{MESSAGE},
+      ACTION_LOG_ID = #{ACTION_LOG_ID},
+      CREATED_ID = #{CREATED_ID},
+      CREATED_TIME = #{CREATED_TIME},
+      UPDATED_ID = #{UPDATED_ID},
+      UPDATED_TIME = #{UPDATED_TIME},
+      REMARK = #{REMARK},
+      LEAVE_MESSAGE = #{LEAVE_MESSAGE},
+      TRADE_DATE = #{TRADE_DATE},
+      CHECK_STATUS = #{CHECK_STATUS},
+      CHECK_DATE = #{CHECK_DATE},
+      CLE_SCENE_NO = #{CLE_SCENE_NO},
+      CLE_STATUS = #{CLE_STATUS},
+      MERCHANT_SERVICE_RATE = #{MERCHANT_SERVICE_RATE},
+      MERCHANT_SERVICE_AMOUNT = #{MERCHANT_SERVICE_AMOUNT},
+      CHANNEL_SERVICE_AMOUNT = #{CHANNEL_SERVICE_AMOUNT},
+      PLATFORM_SERVICE_AMOUNT = #{PLATFORM_SERVICE_AMOUNT},
+      PLATFORM_RD_SERVICE_AMOUNT = #{PLATFORM_RD_SERVICE_AMOUNT},
+      STL_AMOUNT = #{STL_AMOUNT},
+      STL_BILL_NO = #{STL_BILL_NO},
+      STL_STATUS = #{STL_STATUS}
+    where ID = #{ID}
   </update>
   <cache eviction="LRU" flushInterval="60000" readOnly="true" size="1560">
     <!--
